@@ -1,0 +1,120 @@
+{
+    "packages": {
+        "t324inc/d324-project": {
+            "8.x-dev": {
+                "name": "t324inc/d324-project",
+                "version": "8.x-dev",
+                "version_normalized": "8.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324-project.git",
+                    "reference": "46da4372de368bb1df628dc43b227a225e06b12f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/46da4372de368bb1df628dc43b227a225e06b12f",
+                    "reference": "46da4372de368bb1df628dc43b227a225e06b12f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.2",
+                    "cweagans/composer-patches": "^1.6.5",
+                    "drupal-composer/drupal-scaffold": "^2.5",
+                    "drupal/console": "^1.0.2",
+                    "drupal/core": "^8.7.0",
+                    "drush/drush": "^9.0.0",
+                    "php": ">=7.2",
+                    "vlucas/phpdotenv": "^3.3",
+                    "webflo/drupal-finder": "^1.0.0",
+                    "webmozart/path-util": "^2.3",
+                    "zaporylie/composer-drupal-optimizations": "^1.1"
+                },
+                "conflict": {
+                    "drupal/drupal": "*"
+                },
+                "require-dev": {
+                    "webflo/drupal-core-require-dev": "^8.7.1"
+                },
+                "time": "2019-05-11T22:51:15+00:00",
+                "type": "project",
+                "extra": {
+                    "web/profiles/{$name}": [
+                        "type:drupal-profile"
+                    ],
+                    "composer-exit-on-patch-failure": true,
+                    "patchLevel": {
+                        "drupal/core": "-p2"
+                    },
+                    "installer-types": [
+                        "npm-asset",
+                        "bower-asset"
+                    ],
+                    "installer-paths": {
+                        "web/core": [
+                            "type:drupal-core"
+                        ],
+                        "web/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:npm-asset",
+                            "type:bower-asset"
+                        ],
+                        "web/profiles/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "web/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "web/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "drupal-scaffold": {
+                        "initial": {
+                            ".editorconfig": "../.editorconfig",
+                            ".gitattributes": "../.gitattributes"
+                        }
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "scripts/composer/ScriptHandler.php"
+                    ],
+                    "files": [
+                        "load.environment.php"
+                    ]
+                },
+                "scripts": {
+                    "pre-install-cmd": [
+                        "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+                    ],
+                    "pre-update-cmd": [
+                        "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+                    ],
+                    "post-install-cmd": [
+                        "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+                    ],
+                    "post-update-cmd": [
+                        "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Brian Nowell",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "D324 - An Optimal Drupal 8 Project by T324",
+                "support": {
+                    "source": "https://github.com/t324inc/d324-project/tree/8.x"
+                }
+            }
+        }
+    }
+}
