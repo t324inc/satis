@@ -1020,12 +1020,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "9d06dbc9a70492527041ac834e764c8b3d64a5c2"
+                    "reference": "2d9c2efd6c3eec5bfd5a5982d97e7e110d86e238"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/9d06dbc9a70492527041ac834e764c8b3d64a5c2",
-                    "reference": "9d06dbc9a70492527041ac834e764c8b3d64a5c2",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/2d9c2efd6c3eec5bfd5a5982d97e7e110d86e238",
+                    "reference": "2d9c2efd6c3eec5bfd5a5982d97e7e110d86e238",
                     "shasum": ""
                 },
                 "require": {
@@ -1044,6 +1044,7 @@
                     "drupal/checklistapi": "~1.0",
                     "drupal/coffee": "1.0-beta2",
                     "drupal/color_field": "~2.0",
+                    "drupal/components": "^1.1",
                     "drupal/config_filter": "~1.0",
                     "drupal/config_ignore": "~2.0",
                     "drupal/config_update": "~1.0",
@@ -1113,7 +1114,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-13T07:52:16+00:00",
+                "time": "2019-05-13T09:30:18+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1174,7 +1175,7 @@
                 "description": "This is the Core D324 feature. Provides core components required by other features.",
                 "homepage": "https://www.drupal.org/project/d324_core",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_core/tree/8.7.1.1",
+                    "source": "https://github.com/t324inc/d324_core/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             }
