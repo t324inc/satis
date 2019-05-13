@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "e341ec6cb634077a511b723ee0a21c123c8aee1e"
+                    "reference": "57e623628a15fd19dafcd70f14729e45d8837978"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/e341ec6cb634077a511b723ee0a21c123c8aee1e",
-                    "reference": "e341ec6cb634077a511b723ee0a21c123c8aee1e",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/57e623628a15fd19dafcd70f14729e45d8837978",
+                    "reference": "57e623628a15fd19dafcd70f14729e45d8837978",
                     "shasum": ""
                 },
                 "require": {
@@ -163,12 +163,13 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_blog": "8.7.x-dev",
                     "t324inc/d324_core": "8.7.x-dev",
-                    "t324inc/d324_media": "8.7.x-dev"
+                    "t324inc/d324_media": "8.7.x-dev",
+                    "t324inc/d324theme": "8.7.x-dev"
                 },
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T13:44:58+00:00",
+                "time": "2019-05-13T17:08:26+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -185,8 +186,16 @@
                         "web/profiles/{$name}": [
                             "type:drupal-profile"
                         ],
+                        "web/modules/d324/{$name}": [
+                            "type:drupal-module",
+                            "vendor:t324inc"
+                        ],
                         "web/modules/contrib/{$name}": [
                             "type:drupal-module"
+                        ],
+                        "web/themes/d324/{$name}": [
+                            "type:drupal-theme",
+                            "vendor:t324inc"
                         ],
                         "web/themes/contrib/{$name}": [
                             "type:drupal-theme"
@@ -1350,18 +1359,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "09e4ea75f12e96f06ad13c62473670522f2d292d"
+                    "reference": "55e131096ca4c27dcd4c721d12ea09a8b84455e0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/09e4ea75f12e96f06ad13c62473670522f2d292d",
-                    "reference": "09e4ea75f12e96f06ad13c62473670522f2d292d",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/55e131096ca4c27dcd4c721d12ea09a8b84455e0",
+                    "reference": "55e131096ca4c27dcd4c721d12ea09a8b84455e0",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-05-13T16:56:40+00:00",
+                "time": "2019-05-13T22:24:50+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
@@ -1378,10 +1387,10 @@
                         "role": "Maintainer"
                     }
                 ],
-                "description": "A D324 theme based on Radix by T324.",
+                "description": "A base theme for D324 based on Radix. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
                 "homepage": "https://github.com/t324inc/d324theme",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324theme/issues"
                 }
             }
