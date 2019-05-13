@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "9afa00dae3da65aec998eeb8ac58658cc7a5aeab"
+                    "reference": "fd7072851ca2ce65fedadb538f7caee96282503a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/9afa00dae3da65aec998eeb8ac58658cc7a5aeab",
-                    "reference": "9afa00dae3da65aec998eeb8ac58658cc7a5aeab",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/fd7072851ca2ce65fedadb538f7caee96282503a",
+                    "reference": "fd7072851ca2ce65fedadb538f7caee96282503a",
                     "shasum": ""
                 },
                 "require": {
@@ -161,12 +161,12 @@
                     "drupal-composer/drupal-scaffold": "~2.0",
                     "drupal/drupal-library-installer-plugin": "^0.3",
                     "oomphinc/composer-installers-extender": "~1.0",
-                    "t324inc/d324_core": "^8.7.1"
+                    "t324inc/d324_core": "8.7.x-dev"
                 },
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T04:35:14+00:00",
+                "time": "2019-05-13T08:26:25+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -275,7 +275,7 @@
                 ],
                 "description": "D324 - T324 Drupal 8 Distribution",
                 "support": {
-                    "source": "https://github.com/t324inc/d324/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324/issues"
                 }
             }
