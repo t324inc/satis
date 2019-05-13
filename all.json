@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "fd7072851ca2ce65fedadb538f7caee96282503a"
+                    "reference": "96eb6433caa560b104589a970a87c5fb45596ee1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/fd7072851ca2ce65fedadb538f7caee96282503a",
-                    "reference": "fd7072851ca2ce65fedadb538f7caee96282503a",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/96eb6433caa560b104589a970a87c5fb45596ee1",
+                    "reference": "96eb6433caa560b104589a970a87c5fb45596ee1",
                     "shasum": ""
                 },
                 "require": {
@@ -161,12 +161,13 @@
                     "drupal-composer/drupal-scaffold": "~2.0",
                     "drupal/drupal-library-installer-plugin": "^0.3",
                     "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_blog": "8.7.x-dev",
                     "t324inc/d324_core": "8.7.x-dev"
                 },
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T08:26:25+00:00",
+                "time": "2019-05-13T09:22:03+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -555,6 +556,130 @@
                 "description": "D324 Project Template - An Optimal Drupal 8 Project by T324",
                 "support": {
                     "source": "https://github.com/t324inc/d324-project/tree/8.7.1"
+                }
+            }
+        },
+        "t324inc/d324_blog": {
+            "8.7.1": {
+                "name": "t324inc/d324_blog",
+                "version": "8.7.1",
+                "version_normalized": "8.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_blog.git",
+                    "reference": "d0733d16fed90b3bdbbcd69ad4d48181dfa95063"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_blog/zipball/d0733d16fed90b3bdbbcd69ad4d48181dfa95063",
+                    "reference": "d0733d16fed90b3bdbbcd69ad4d48181dfa95063",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/advanced_text_formatter": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/length_indicator": "~1.0",
+                    "drupal/maxlength": "~1.0",
+                    "drupal/taxonomy_menu": "3.4",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-05-13T09:18:30+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patches": {
+                        "drupal/taxonomy_menu": {
+                            "Issue #2939143: Fixed Undefined method TaxonomyMenu::generateTaxonomyLinks()": "https://www.drupal.org/files/issues/2018-12-23/2939143-10.patch"
+                        }
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides Blog post content type and related configuration.",
+                "homepage": "https://github.com/t324inc/d324_blog",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_blog/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_blog/issues"
+                }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324_blog",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_blog.git",
+                    "reference": "d0733d16fed90b3bdbbcd69ad4d48181dfa95063"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_blog/zipball/d0733d16fed90b3bdbbcd69ad4d48181dfa95063",
+                    "reference": "d0733d16fed90b3bdbbcd69ad4d48181dfa95063",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/advanced_text_formatter": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/length_indicator": "~1.0",
+                    "drupal/maxlength": "~1.0",
+                    "drupal/taxonomy_menu": "3.4",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-05-13T09:18:30+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patches": {
+                        "drupal/taxonomy_menu": {
+                            "Issue #2939143: Fixed Undefined method TaxonomyMenu::generateTaxonomyLinks()": "https://www.drupal.org/files/issues/2018-12-23/2939143-10.patch"
+                        }
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides Blog post content type and related configuration.",
+                "homepage": "https://github.com/t324inc/d324_blog",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_blog/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_blog/issues"
                 }
             }
         },
