@@ -1021,12 +1021,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "0cdd1221869558479c4491bb51a1d7b95d5882be"
+                    "reference": "ca2a2cfa75774cffff00b5b5a82aa863df8ae03d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/0cdd1221869558479c4491bb51a1d7b95d5882be",
-                    "reference": "0cdd1221869558479c4491bb51a1d7b95d5882be",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/ca2a2cfa75774cffff00b5b5a82aa863df8ae03d",
+                    "reference": "ca2a2cfa75774cffff00b5b5a82aa863df8ae03d",
                     "shasum": ""
                 },
                 "require": {
@@ -1115,7 +1115,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-13T10:10:41+00:00",
+                "time": "2019-05-13T15:58:45+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1160,6 +1160,9 @@
                         },
                         "drupal/password_policy": {
                             "Issue #3032549: Fix Password policy module issue with saving constraint": "https://www.drupal.org/files/issues/2019-04-28/3032549-18.patch"
+                        },
+                        "drupal/link_attributes": {
+                            "Issue #3050455: Array to string conversion in Drupal\\Core\\Template\\AttributeArray->__toString()": "https://www.drupal.org/files/issues/2019-04-24/3050455-2.link_attributes.Array-to-string-conversion-in-DrupalCoreTemplateAttributeArraytoString.patch"
                         }
                     }
                 },
