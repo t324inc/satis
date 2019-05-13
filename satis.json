@@ -17,7 +17,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/t324inc/d324-core"
+			"url": "https://github.com/t324inc/d324_core"
 		}
 	],
 	"require-all": true,
