@@ -10,7 +10,16 @@
 		{
 			"type": "vcs",
 			"url": "https://github.com/t324inc/d324-project"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/t324inc/d324"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/t324inc/d324-core"
 		}
 	],
+	"require-all": true,
 	"require-dependencies": false
 }
