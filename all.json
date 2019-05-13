@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "31556f85c5471e2db531ac56e7e5425f4d0e1238"
+                    "reference": "e341ec6cb634077a511b723ee0a21c123c8aee1e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/31556f85c5471e2db531ac56e7e5425f4d0e1238",
-                    "reference": "31556f85c5471e2db531ac56e7e5425f4d0e1238",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/e341ec6cb634077a511b723ee0a21c123c8aee1e",
+                    "reference": "e341ec6cb634077a511b723ee0a21c123c8aee1e",
                     "shasum": ""
                 },
                 "require": {
@@ -168,7 +168,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T11:34:54+00:00",
+                "time": "2019-05-13T13:44:58+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -1189,12 +1189,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "3554d026f5d25f53e290fda1d404ac5c3d00f4d4"
+                    "reference": "c70430c8416e9af722c1fb40136a99fae2d8a8ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/3554d026f5d25f53e290fda1d404ac5c3d00f4d4",
-                    "reference": "3554d026f5d25f53e290fda1d404ac5c3d00f4d4",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/c70430c8416e9af722c1fb40136a99fae2d8a8ef",
+                    "reference": "c70430c8416e9af722c1fb40136a99fae2d8a8ef",
                     "shasum": ""
                 },
                 "require": {
@@ -1227,7 +1227,7 @@
                     "npm-asset/slick-carousel": "~1.0",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-13T11:31:21+00:00",
+                "time": "2019-05-13T13:53:17+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
