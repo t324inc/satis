@@ -19,10 +19,14 @@
 			"type": "vcs",
 			"url": "https://github.com/t324inc/d324_core"
 		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/t324inc/d324_blog"
-		}
+        {
+          "type": "vcs",
+          "url": "https://github.com/t324inc/d324_blog"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/t324inc/d324_media"
+        }
 	],
 	"require-all": true,
 	"require-dependencies": false
