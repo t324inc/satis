@@ -723,19 +723,19 @@
                     "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             },
-            "dev-8.x-7.x": {
+            "8.7.1.1": {
                 "name": "t324inc/d324_core",
-                "version": "dev-8.x-7.x",
-                "version_normalized": "dev-8.x-7.x",
+                "version": "8.7.1.1",
+                "version_normalized": "8.7.1.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "a55b144f162f070ebd658a8fe67cbab52611be89"
+                    "reference": "9d06dbc9a70492527041ac834e764c8b3d64a5c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/a55b144f162f070ebd658a8fe67cbab52611be89",
-                    "reference": "a55b144f162f070ebd658a8fe67cbab52611be89",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/9d06dbc9a70492527041ac834e764c8b3d64a5c2",
+                    "reference": "9d06dbc9a70492527041ac834e764c8b3d64a5c2",
                     "shasum": ""
                 },
                 "require": {
@@ -803,6 +803,7 @@
                     "drupal/seo_checklist": "^4.1",
                     "drupal/smart_trim": "~1.0",
                     "drupal/smtp": "~1.0",
+                    "drupal/swiftmailer": "^1.0-beta2",
                     "drupal/taxonomy_access_fix": "~2.0",
                     "drupal/token": "~1.0",
                     "drupal/tour_builder": "~1.0",
@@ -822,7 +823,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-13T06:06:08+00:00",
+                "time": "2019-05-13T07:52:16+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -883,7 +884,172 @@
                 "description": "This is the Core D324 feature. Provides core components required by other features.",
                 "homepage": "https://www.drupal.org/project/d324_core",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_core/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324_core/tree/8.7.1.1",
+                    "issues": "https://github.com/t324inc/d324_core/issues"
+                }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324_core",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_core.git",
+                    "reference": "9d06dbc9a70492527041ac834e764c8b3d64a5c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/9d06dbc9a70492527041ac834e764c8b3d64a5c2",
+                    "reference": "9d06dbc9a70492527041ac834e764c8b3d64a5c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/addtoany": "^1.12",
+                    "drupal/admin_toolbar": "~1.0",
+                    "drupal/adminimal_admin_toolbar": "~1.0",
+                    "drupal/adminimal_theme": "^1.4",
+                    "drupal/advanced_text_formatter": "~1.0",
+                    "drupal/better_exposed_filters": "~3.0",
+                    "drupal/betterlogin": "~1.0",
+                    "drupal/block_class": "~1.0",
+                    "drupal/bootstrap_layouts": "~5.0",
+                    "drupal/captcha": "~1.0",
+                    "drupal/checklistapi": "~1.0",
+                    "drupal/coffee": "1.0-beta2",
+                    "drupal/color_field": "~2.0",
+                    "drupal/config_filter": "~1.0",
+                    "drupal/config_ignore": "~2.0",
+                    "drupal/config_update": "~1.0",
+                    "drupal/content_lock": "~1.0",
+                    "drupal/core": "^8.7.1",
+                    "drupal/ctools": "3.2",
+                    "drupal/default_content": "1.0-alpha8",
+                    "drupal/devel": "*",
+                    "drupal/diff": "~1.0",
+                    "drupal/drd_agent": "~3.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/ds": "3.3",
+                    "drupal/entity": "~1.0",
+                    "drupal/entity_clone": "~1.0",
+                    "drupal/entity_reference_revisions": "~1.0",
+                    "drupal/entityqueue": "~1.0",
+                    "drupal/entityqueue_form_widget": "~1.0",
+                    "drupal/extlink": "~1.0",
+                    "drupal/fast_404": "~1.0",
+                    "drupal/features": "~3.0",
+                    "drupal/field_group": "3.0-beta1",
+                    "drupal/gutenberg": "1.0-rc1",
+                    "drupal/honeypot": "~1.0",
+                    "drupal/inline_entity_form": "~1.0",
+                    "drupal/layout_builder_restrictions": "~1.0",
+                    "drupal/length_indicator": "1.0-rc3",
+                    "drupal/libraries": "~3.0",
+                    "drupal/libraries_ui": "~1.0",
+                    "drupal/link_attributes": "~1.0",
+                    "drupal/login_destination": "~1.0",
+                    "drupal/mailsystem": "~4.0",
+                    "drupal/masquerade": "~2.0",
+                    "drupal/maxlength": "~1.0",
+                    "drupal/menu_admin_per_menu": "~1.0",
+                    "drupal/menu_block": "~1.0",
+                    "drupal/menu_position": "~1.0",
+                    "drupal/node_edit_protection": "~1.0",
+                    "drupal/page_manager": "4.0-beta3",
+                    "drupal/panels": "~4.0",
+                    "drupal/password_policy": "3.0-alpha4",
+                    "drupal/rabbit_hole": "~1.0",
+                    "drupal/radix": "^4.3",
+                    "drupal/recaptcha": "~2.0",
+                    "drupal/redis": "^1.1",
+                    "drupal/responsive_preview": "~1.0",
+                    "drupal/revision_log_default": "~1.0",
+                    "drupal/seo_checklist": "^4.1",
+                    "drupal/smart_trim": "~1.0",
+                    "drupal/smtp": "~1.0",
+                    "drupal/swiftmailer": "^1.0-beta2",
+                    "drupal/taxonomy_access_fix": "~2.0",
+                    "drupal/token": "~1.0",
+                    "drupal/tour_builder": "~1.0",
+                    "drupal/tour_ui": "~1.0",
+                    "drupal/ultimate_cron": "~2.0",
+                    "drupal/update_helper": "1.0",
+                    "drupal/username_enumeration_prevention": "~1.0",
+                    "drupal/views_bootstrap": "~3.0",
+                    "drupal/views_bulk_edit": "~2.0",
+                    "drupal/views_bulk_operations": "~2.0",
+                    "drupal/views_infinite_scroll": "~1.0",
+                    "drupal/viewsreference": "~2.0",
+                    "drupal/webform": "~5.0",
+                    "drupal/webform_analysis": "~1.0",
+                    "drupal/webform_views": "~5.0",
+                    "drupal/yoast_seo": "~1.0",
+                    "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-13T07:52:16+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patches": {
+                        "drupal/redis": {
+                            "Issue #2882796 Add support for persistent connections to redis host": "https://www.drupal.org/files/issues/2018-11-13/2882796-persist-connection_0.patch"
+                        },
+                        "drupal/coffee": {
+                            "Issue #2815381: Coffee breaks whole page when using right to left (rtl) languages in drupal 8": "https://www.drupal.org/files/issues/coffee-coffee_breaks_page_with_rtl-2815381-6.patch",
+                            "Issue #2872093: Coffee css fixes in RTL": "https://www.drupal.org/files/issues/2872093-10.patch"
+                        },
+                        "drupal/default_content": {
+                            "Issue #2900089: Invalid translation language error when selected installation language does not match demo content language": "https://www.drupal.org/files/issues/2900089-14.patch",
+                            "Issue #2886350: Allow export of all site content.": "https://www.drupal.org/files/issues/default_content-export_all_content-2886350-2-D8.patch"
+                        },
+                        "drupal/ctools": {
+                            "Issue #2820783: Fix Block.php notices and warnings.": "https://www.drupal.org/files/issues/2019-02-18/ctools-Block.php_notices_and_warnings-2820783-51-D8.patch"
+                        },
+                        "drupal/ds": {
+                            "Issue #2920868: Fix fatal errors when we have missing layouts, on an update": "https://www.drupal.org/files/issues/2019-03-03/2920868-12.patch"
+                        },
+                        "drupal/page_manager": {
+                            "Issue #2665328: Variants take entity label not the variant title": "https://www.drupal.org/files/issues/2018-12-12/2665328-variants-take-entity-label-87.patch",
+                            "Issue #3033057: Page Manager currently not working with CTools 3.1": "https://www.drupal.org/files/issues/2019-02-23/3033057-13.patch"
+                        },
+                        "drupal/field_group": {
+                            "Issue #2921228: Accordion does not work": "https://www.drupal.org/files/issues/field_group_accordion-2921228-3.patch"
+                        },
+                        "drupal/update_helper": {
+                            "Issue #3024165: [PATCH] Enhancements, Better messages for the unable to apply updates, drush command and removed the Mark all updates as successful on install": "https://www.drupal.org/files/issues/2019-05-08/3024165-25.patch"
+                        },
+                        "drupal/length_indicator": {
+                            "Issue #3048286: Add cursor position direction support for RTL": "https://www.drupal.org/files/issues/2019-04-15/3048286-3.patch"
+                        },
+                        "drupal/password_policy": {
+                            "Issue #3032549: Fix Password policy module issue with saving constraint": "https://www.drupal.org/files/issues/2019-04-28/3032549-18.patch"
+                        }
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is the Core D324 feature. Provides core components required by other features.",
+                "homepage": "https://www.drupal.org/project/d324_core",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_core/tree/8.7.1.1",
                     "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             }
