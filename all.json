@@ -7,13 +7,13 @@
                 "version_normalized": "8.7.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/t324inc/d324-core.git",
-                    "reference": "7a9f23945ab40ce717e5ebfa3a57104ab23a7ee2"
+                    "url": "https://github.com/t324inc/d324_core.git",
+                    "reference": "2a76a68860efed4ade6eb9fadf06b3b812efc1f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-core/zipball/7a9f23945ab40ce717e5ebfa3a57104ab23a7ee2",
-                    "reference": "7a9f23945ab40ce717e5ebfa3a57104ab23a7ee2",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/2a76a68860efed4ade6eb9fadf06b3b812efc1f0",
+                    "reference": "2a76a68860efed4ade6eb9fadf06b3b812efc1f0",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                     "drupal/config_ignore": "~2.0",
                     "drupal/config_update": "~1.0",
                     "drupal/content_lock": "~1.0",
-                    "drupal/core": "~8.7.0",
+                    "drupal/core": "^8.7.1",
                     "drupal/ctools": "3.2",
                     "drupal/default_content": "1.0-alpha8",
                     "drupal/devel": "*",
@@ -73,6 +73,7 @@
                     "drupal/password_policy": "3.0-alpha4",
                     "drupal/rabbit_hole": "~1.0",
                     "drupal/recaptcha": "~2.0",
+                    "drupal/redis": "^1.1",
                     "drupal/responsive_preview": "~1.0",
                     "drupal/revision_log_default": "~1.0",
                     "drupal/seo_checlist": "^3.1",
@@ -97,7 +98,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-13T01:48:35+00:00",
+                "time": "2019-05-13T04:21:14+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -109,17 +110,9 @@
                     ],
                     "enable-patching": true,
                     "composer-exit-on-patch-failure": true,
-                    "patchLevel": {
-                        "drupal/core": "-p2"
-                    },
                     "patches": {
-                        "drupal/core": {
-                            "Issue #2869592: Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
-                            "Issue #2885441: EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
-                            "Issue #2815221: Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-03-05/2815221-116.patch",
-                            "Issue #1356276: Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2018-10-12/1356276-531.patch",
-                            "Issue #2914389: Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                            "Issue #2893892: Fixed Warning Invalid argument supplied for foreach() in Drupal": "https://www.drupal.org/files/issues/2018-12-10/core--getDerivatives-Invalid-argument-foreach--2893892-11-d8.patch"
+                        "drupal/redis": {
+                            "Issue #2882796 Add support for persistent connections to redis host": "https://www.drupal.org/files/issues/2018-11-13/2882796-persist-connection_0.patch"
                         },
                         "drupal/coffee": {
                             "Issue #2815381: Coffee breaks whole page when using right to left (rtl) languages in drupal 8": "https://www.drupal.org/files/issues/coffee-coffee_breaks_page_with_rtl-2815381-6.patch",
@@ -158,31 +151,31 @@
                 ],
                 "authors": [
                     {
-                        "name": "Vardot",
-                        "homepage": "https://www.drupal.org/vardot",
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
                         "role": "Maintainer"
                     }
                 ],
                 "description": "This is the Core D324 feature. Provides core components required by other features.",
                 "homepage": "https://www.drupal.org/project/d324_core",
                 "support": {
-                    "issues": "https://www.drupal.org/project/issues/d324_core",
-                    "source": "http://cgit.drupalcode.org/d324_core"
+                    "source": "https://github.com/t324inc/d324_core/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             },
-            "dev-master": {
+            "dev-8.x-7.x": {
                 "name": "drupal/d324_core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/t324inc/d324-core.git",
-                    "reference": "7a9f23945ab40ce717e5ebfa3a57104ab23a7ee2"
+                    "url": "https://github.com/t324inc/d324_core.git",
+                    "reference": "2a76a68860efed4ade6eb9fadf06b3b812efc1f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-core/zipball/7a9f23945ab40ce717e5ebfa3a57104ab23a7ee2",
-                    "reference": "7a9f23945ab40ce717e5ebfa3a57104ab23a7ee2",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/2a76a68860efed4ade6eb9fadf06b3b812efc1f0",
+                    "reference": "2a76a68860efed4ade6eb9fadf06b3b812efc1f0",
                     "shasum": ""
                 },
                 "require": {
@@ -204,7 +197,7 @@
                     "drupal/config_ignore": "~2.0",
                     "drupal/config_update": "~1.0",
                     "drupal/content_lock": "~1.0",
-                    "drupal/core": "~8.7.0",
+                    "drupal/core": "^8.7.1",
                     "drupal/ctools": "3.2",
                     "drupal/default_content": "1.0-alpha8",
                     "drupal/devel": "*",
@@ -242,6 +235,7 @@
                     "drupal/password_policy": "3.0-alpha4",
                     "drupal/rabbit_hole": "~1.0",
                     "drupal/recaptcha": "~2.0",
+                    "drupal/redis": "^1.1",
                     "drupal/responsive_preview": "~1.0",
                     "drupal/revision_log_default": "~1.0",
                     "drupal/seo_checlist": "^3.1",
@@ -266,7 +260,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-13T01:48:35+00:00",
+                "time": "2019-05-13T04:21:14+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -278,17 +272,9 @@
                     ],
                     "enable-patching": true,
                     "composer-exit-on-patch-failure": true,
-                    "patchLevel": {
-                        "drupal/core": "-p2"
-                    },
                     "patches": {
-                        "drupal/core": {
-                            "Issue #2869592: Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
-                            "Issue #2885441: EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
-                            "Issue #2815221: Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-03-05/2815221-116.patch",
-                            "Issue #1356276: Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2018-10-12/1356276-531.patch",
-                            "Issue #2914389: Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                            "Issue #2893892: Fixed Warning Invalid argument supplied for foreach() in Drupal": "https://www.drupal.org/files/issues/2018-12-10/core--getDerivatives-Invalid-argument-foreach--2893892-11-d8.patch"
+                        "drupal/redis": {
+                            "Issue #2882796 Add support for persistent connections to redis host": "https://www.drupal.org/files/issues/2018-11-13/2882796-persist-connection_0.patch"
                         },
                         "drupal/coffee": {
                             "Issue #2815381: Coffee breaks whole page when using right to left (rtl) languages in drupal 8": "https://www.drupal.org/files/issues/coffee-coffee_breaks_page_with_rtl-2815381-6.patch",
@@ -327,16 +313,16 @@
                 ],
                 "authors": [
                     {
-                        "name": "Vardot",
-                        "homepage": "https://www.drupal.org/vardot",
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
                         "role": "Maintainer"
                     }
                 ],
                 "description": "This is the Core D324 feature. Provides core components required by other features.",
                 "homepage": "https://www.drupal.org/project/d324_core",
                 "support": {
-                    "issues": "https://www.drupal.org/project/issues/d324_core",
-                    "source": "http://cgit.drupalcode.org/d324_core"
+                    "source": "https://github.com/t324inc/d324_core/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             }
         },
@@ -348,12 +334,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "dc96501404916495dfc8d2a77200fba05b0003bf"
+                    "reference": "a615b38ef9c9c549c9c0db8ff095a686c2b4cb20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/dc96501404916495dfc8d2a77200fba05b0003bf",
-                    "reference": "dc96501404916495dfc8d2a77200fba05b0003bf",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/a615b38ef9c9c549c9c0db8ff095a686c2b4cb20",
+                    "reference": "a615b38ef9c9c549c9c0db8ff095a686c2b4cb20",
                     "shasum": ""
                 },
                 "require": {
@@ -367,7 +353,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T01:45:52+00:00",
+                "time": "2019-05-13T04:16:51+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -469,30 +455,30 @@
                 ],
                 "authors": [
                     {
-                        "name": "Brian Nowell",
+                        "name": "T324",
                         "homepage": "https://www.t324.com",
                         "role": "Maintainer"
                     }
                 ],
                 "description": "D324 - T324 Drupal 8 Distribution",
                 "support": {
-                    "source": "https://github.com/t324inc/d324/tree/8.x-7.1",
+                    "source": "https://github.com/t324inc/d324/tree/8.7.1",
                     "issues": "https://github.com/t324inc/d324/issues"
                 }
             },
-            "dev-master": {
+            "dev-8.x-7.x": {
                 "name": "t324inc/d324",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "dc96501404916495dfc8d2a77200fba05b0003bf"
+                    "reference": "a615b38ef9c9c549c9c0db8ff095a686c2b4cb20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/dc96501404916495dfc8d2a77200fba05b0003bf",
-                    "reference": "dc96501404916495dfc8d2a77200fba05b0003bf",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/a615b38ef9c9c549c9c0db8ff095a686c2b4cb20",
+                    "reference": "a615b38ef9c9c549c9c0db8ff095a686c2b4cb20",
                     "shasum": ""
                 },
                 "require": {
@@ -506,7 +492,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T01:45:52+00:00",
+                "time": "2019-05-13T04:16:51+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -608,14 +594,14 @@
                 ],
                 "authors": [
                     {
-                        "name": "Brian Nowell",
+                        "name": "T324",
                         "homepage": "https://www.t324.com",
                         "role": "Maintainer"
                     }
                 ],
                 "description": "D324 - T324 Drupal 8 Distribution",
                 "support": {
-                    "source": "https://github.com/t324inc/d324/tree/8.x-7.1",
+                    "source": "https://github.com/t324inc/d324/tree/8.7.1",
                     "issues": "https://github.com/t324inc/d324/issues"
                 }
             }
