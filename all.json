@@ -742,7 +742,7 @@
                 ],
                 "description": "D324 Project Template - An Optimal Drupal 8 Project by T324",
                 "support": {
-                    "source": "https://github.com/t324inc/d324-project/tree/8.x-7.1"
+                    "source": "https://github.com/t324inc/d324-project/tree/8.7.1"
                 }
             },
             "8.x-dev": {
@@ -880,7 +880,7 @@
                 ],
                 "description": "D324 Project Template - An Optimal Drupal 8 Project by T324",
                 "support": {
-                    "source": "https://github.com/t324inc/d324-project/tree/8.x-7.1"
+                    "source": "https://github.com/t324inc/d324-project/tree/8.7.1"
                 }
             }
         }
