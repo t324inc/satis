@@ -1,5 +1,49 @@
 {
     "packages": {
+        "t324/d324theme": {
+            "dev-8.x-7.x": {
+                "name": "t324/d324theme",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324theme.git",
+                    "reference": "e1f24450c8ad4d6cd050a91c259139365bb69bf1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/e1f24450c8ad4d6cd050a91c259139365bb69bf1",
+                    "reference": "e1f24450c8ad4d6cd050a91c259139365bb69bf1",
+                    "shasum": ""
+                },
+                "require": {
+                    "drupal/components": "^1.0"
+                },
+                "time": "2019-05-13T16:41:30+00:00",
+                "type": "drupal-theme",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "A D324 theme based on Radix by T324.",
+                "homepage": "https://github.com/t324inc/d324theme",
+                "support": {
+                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324theme/issues"
+                }
+            }
+        },
         "t324inc/d324": {
             "8.7.1": {
                 "name": "t324inc/d324",
