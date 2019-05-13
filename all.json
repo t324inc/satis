@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "57e623628a15fd19dafcd70f14729e45d8837978"
+                    "reference": "fc52e3b5217246c378155da96480f0942d274f43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/57e623628a15fd19dafcd70f14729e45d8837978",
-                    "reference": "57e623628a15fd19dafcd70f14729e45d8837978",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/fc52e3b5217246c378155da96480f0942d274f43",
+                    "reference": "fc52e3b5217246c378155da96480f0942d274f43",
                     "shasum": ""
                 },
                 "require": {
@@ -169,7 +169,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T17:08:26+00:00",
+                "time": "2019-05-13T22:30:09+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -1349,6 +1349,48 @@
                 "homepage": "https://github.com/t324inc/d324theme",
                 "support": {
                     "source": "https://github.com/t324inc/d324theme/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324theme/issues"
+                }
+            },
+            "8.7.1.1": {
+                "name": "t324inc/d324theme",
+                "version": "8.7.1.1",
+                "version_normalized": "8.7.1.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324theme.git",
+                    "reference": "55e131096ca4c27dcd4c721d12ea09a8b84455e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/55e131096ca4c27dcd4c721d12ea09a8b84455e0",
+                    "reference": "55e131096ca4c27dcd4c721d12ea09a8b84455e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "drupal/components": "^1.0"
+                },
+                "time": "2019-05-13T22:24:50+00:00",
+                "type": "drupal-theme",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "A base theme for D324 based on Radix. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
+                "homepage": "https://github.com/t324inc/d324theme",
+                "support": {
+                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324theme/issues"
                 }
             },
