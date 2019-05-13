@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "96eb6433caa560b104589a970a87c5fb45596ee1"
+                    "reference": "e734471c518fcb92dfff120be1702f385da9a570"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/96eb6433caa560b104589a970a87c5fb45596ee1",
-                    "reference": "96eb6433caa560b104589a970a87c5fb45596ee1",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/e734471c518fcb92dfff120be1702f385da9a570",
+                    "reference": "e734471c518fcb92dfff120be1702f385da9a570",
                     "shasum": ""
                 },
                 "require": {
@@ -167,7 +167,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T09:22:03+00:00",
+                "time": "2019-05-13T10:47:04+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -628,12 +628,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_blog.git",
-                    "reference": "d0733d16fed90b3bdbbcd69ad4d48181dfa95063"
+                    "reference": "1df6d5220b720e7465455bede01bfd76178ae19f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_blog/zipball/d0733d16fed90b3bdbbcd69ad4d48181dfa95063",
-                    "reference": "d0733d16fed90b3bdbbcd69ad4d48181dfa95063",
+                    "url": "https://api.github.com/repos/t324inc/d324_blog/zipball/1df6d5220b720e7465455bede01bfd76178ae19f",
+                    "reference": "1df6d5220b720e7465455bede01bfd76178ae19f",
                     "shasum": ""
                 },
                 "require": {
@@ -647,7 +647,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_core": "8.7.x-dev"
                 },
-                "time": "2019-05-13T09:18:30+00:00",
+                "time": "2019-05-13T10:49:23+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -678,7 +678,7 @@
                 "description": "Provides Blog post content type and related configuration.",
                 "homepage": "https://github.com/t324inc/d324_blog",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_blog/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324_blog/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_blog/issues"
                 }
             }
