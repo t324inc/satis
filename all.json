@@ -569,6 +569,110 @@
                 }
             }
         },
+        "t324inc/d324-updater": {
+            "8.7.1": {
+                "name": "t324inc/d324-updater",
+                "version": "8.7.1",
+                "version_normalized": "8.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324-updater.git",
+                    "reference": "7f1aba2674a85ef92657a31a719f35975b8d54b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324-updater/zipball/7f1aba2674a85ef92657a31a719f35975b8d54b0",
+                    "reference": "7f1aba2674a85ef92657a31a719f35975b8d54b0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.1",
+                    "symfony/yaml": "^3.1"
+                },
+                "time": "2019-05-14T02:57:47+00:00",
+                "bin": [
+                    "scripts/update/update-d324.sh"
+                ],
+                "type": "composer-plugin",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "class": "t324inc\\Composer\\Plugin\\D324Updater"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "t324inc\\Composer\\": "src"
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://github.com/t324inc",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "A set of scripts and tools that will help you to update to the newer versions of D324.",
+                "support": {
+                    "source": "https://github.com/t324inc/d324-updater/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324-updater/issues"
+                }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324-updater",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324-updater.git",
+                    "reference": "7f1aba2674a85ef92657a31a719f35975b8d54b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324-updater/zipball/7f1aba2674a85ef92657a31a719f35975b8d54b0",
+                    "reference": "7f1aba2674a85ef92657a31a719f35975b8d54b0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.1",
+                    "symfony/yaml": "^3.1"
+                },
+                "time": "2019-05-14T02:57:47+00:00",
+                "bin": [
+                    "scripts/update/update-d324.sh"
+                ],
+                "type": "composer-plugin",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "class": "t324inc\\Composer\\Plugin\\D324Updater"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "t324inc\\Composer\\": "src"
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://github.com/t324inc",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "A set of scripts and tools that will help you to update to the newer versions of D324.",
+                "support": {
+                    "source": "https://github.com/t324inc/d324-updater/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324-updater/issues"
+                }
+            }
+        },
         "t324inc/d324_blog": {
             "8.7.1": {
                 "name": "t324inc/d324_blog",
