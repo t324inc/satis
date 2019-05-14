@@ -437,12 +437,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-project.git",
-                    "reference": "2341131048bb4bb2396455b093d1f6bb0c3ac085"
+                    "reference": "59cd42fe2eb74bf0b90d6c5c6a664736e2087ea6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/2341131048bb4bb2396455b093d1f6bb0c3ac085",
-                    "reference": "2341131048bb4bb2396455b093d1f6bb0c3ac085",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/59cd42fe2eb74bf0b90d6c5c6a664736e2087ea6",
+                    "reference": "59cd42fe2eb74bf0b90d6c5c6a664736e2087ea6",
                     "shasum": ""
                 },
                 "require": {
@@ -456,6 +456,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "php": ">=7.2",
                     "t324inc/d324": "8.7.x-dev",
+                    "t324inc/d324-updater": "8.7.x-dev",
                     "vlucas/phpdotenv": "^3.3",
                     "webflo/drupal-finder": "^1.0.0",
                     "webmozart/path-util": "^2.3",
@@ -464,7 +465,7 @@
                 "conflict": {
                     "drupal/drupal": "*"
                 },
-                "time": "2019-05-13T03:13:35+00:00",
+                "time": "2019-05-14T03:03:12+00:00",
                 "type": "project",
                 "extra": {
                     "branch-alias": {
@@ -565,7 +566,7 @@
                 ],
                 "description": "D324 Project Template - An Optimal Drupal 8 Project by T324",
                 "support": {
-                    "source": "https://github.com/t324inc/d324-project/tree/8.7.1"
+                    "source": "https://github.com/t324inc/d324-project/tree/8.x"
                 }
             }
         },
