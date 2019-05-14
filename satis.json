@@ -17,11 +17,15 @@
 		},
 		{
 			"type": "vcs",
+			"url": "https://github.com/t324inc/d324-updater"
+		},
+		{
+			"type": "vcs",
 			"url": "https://github.com/t324inc/d324_core"
 		},
         {
-          "type": "vcs",
-          "url": "https://github.com/t324inc/d324_blog"
+			"type": "vcs",
+			"url": "https://github.com/t324inc/d324_blog"
         },
 		{
 			"type": "vcs",
