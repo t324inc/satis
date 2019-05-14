@@ -1315,12 +1315,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "bc490d05d6affc452a1007ffef42757e8bbc1f0e"
+                    "reference": "0535ec40fa245c7c286bc2e72dfdd422b87c8c54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/bc490d05d6affc452a1007ffef42757e8bbc1f0e",
-                    "reference": "bc490d05d6affc452a1007ffef42757e8bbc1f0e",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/0535ec40fa245c7c286bc2e72dfdd422b87c8c54",
+                    "reference": "0535ec40fa245c7c286bc2e72dfdd422b87c8c54",
                     "shasum": ""
                 },
                 "require": {
@@ -1352,9 +1352,9 @@
                     "npm-asset/dropzone": "~4.0",
                     "npm-asset/slick-carousel": "~1.0",
                     "oomphinc/composer-installers-extender": "~1.0",
-                    "vardot/entity_browser_generic_embed": "6.x-dev"
+                    "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-05-14T00:01:41+00:00",
+                "time": "2019-05-14T00:14:47+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
