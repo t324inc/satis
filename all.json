@@ -863,6 +863,110 @@
                 }
             }
         },
+        "t324inc/d324_copyright_block": {
+            "8.7.1": {
+                "name": "t324inc/d324_copyright_block",
+                "version": "8.7.1",
+                "version_normalized": "8.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_copyright_block.git",
+                    "reference": "39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf",
+                    "reference": "39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-16T13:14:07+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Copyright blocks for use in D324 websites.",
+                "homepage": "https://github.com/t324inc/d324_copyright_block",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_copyright_block/issues"
+                }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324_copyright_block",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_copyright_block.git",
+                    "reference": "39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf",
+                    "reference": "39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-16T13:14:07+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Copyright blocks for use in D324 websites.",
+                "homepage": "https://github.com/t324inc/d324_copyright_block",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_copyright_block/issues"
+                }
+            }
+        },
         "t324inc/d324_core": {
             "8.7.1": {
                 "name": "t324inc/d324_core",
