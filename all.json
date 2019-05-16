@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "271ff19d3034995345e9a16861e45563be84b456"
+                    "reference": "47ff26571924b93647399159d4afc1c6cbf2a190"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/271ff19d3034995345e9a16861e45563be84b456",
-                    "reference": "271ff19d3034995345e9a16861e45563be84b456",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/47ff26571924b93647399159d4afc1c6cbf2a190",
+                    "reference": "47ff26571924b93647399159d4afc1c6cbf2a190",
                     "shasum": ""
                 },
                 "require": {
@@ -170,7 +170,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-16T12:17:08+00:00",
+                "time": "2019-05-16T13:14:55+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -438,12 +438,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-project.git",
-                    "reference": "59cd42fe2eb74bf0b90d6c5c6a664736e2087ea6"
+                    "reference": "cdc93e62bfb256da1bcc125042583b5d5fbce8a5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/59cd42fe2eb74bf0b90d6c5c6a664736e2087ea6",
-                    "reference": "59cd42fe2eb74bf0b90d6c5c6a664736e2087ea6",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/cdc93e62bfb256da1bcc125042583b5d5fbce8a5",
+                    "reference": "cdc93e62bfb256da1bcc125042583b5d5fbce8a5",
                     "shasum": ""
                 },
                 "require": {
@@ -466,7 +466,7 @@
                 "conflict": {
                     "drupal/drupal": "*"
                 },
-                "time": "2019-05-14T03:03:12+00:00",
+                "time": "2019-05-16T13:03:41+00:00",
                 "type": "project",
                 "extra": {
                     "branch-alias": {
@@ -486,8 +486,16 @@
                         "web/profiles/{$name}": [
                             "type:drupal-profile"
                         ],
+                        "web/modules/d324/{$name}": [
+                            "type:drupal-module",
+                            "vendor:t324inc"
+                        ],
                         "web/modules/contrib/{$name}": [
                             "type:drupal-module"
+                        ],
+                        "web/themes/d324/{$name}": [
+                            "type:drupal-theme",
+                            "vendor:t324inc"
                         ],
                         "web/themes/contrib/{$name}": [
                             "type:drupal-theme"
@@ -1466,7 +1474,7 @@
                 "description": "Manages type of media contents and entity browsers in the site.",
                 "homepage": "https://github.com/t324inc/d324_media",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_media/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324_media/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_media/issues"
                 }
             },
@@ -1477,12 +1485,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "0535ec40fa245c7c286bc2e72dfdd422b87c8c54"
+                    "reference": "778d593919eecad68f961f65b7c176691cafbe79"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/0535ec40fa245c7c286bc2e72dfdd422b87c8c54",
-                    "reference": "0535ec40fa245c7c286bc2e72dfdd422b87c8c54",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/778d593919eecad68f961f65b7c176691cafbe79",
+                    "reference": "778d593919eecad68f961f65b7c176691cafbe79",
                     "shasum": ""
                 },
                 "require": {
@@ -1516,7 +1524,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-05-14T00:14:47+00:00",
+                "time": "2019-05-16T13:09:09+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1667,7 +1675,7 @@
                 "description": "A base theme for D324 based on Radix. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
                 "homepage": "https://github.com/t324inc/d324theme",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme/tree/8.7.1.1",
+                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324theme/issues"
                 }
             },
@@ -1678,18 +1686,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "214153ca25dde4e2667c056f4e9a2330bea853f4"
+                    "reference": "58e843eac3e0559d09506f03bb99609fba6a115e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/214153ca25dde4e2667c056f4e9a2330bea853f4",
-                    "reference": "214153ca25dde4e2667c056f4e9a2330bea853f4",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/58e843eac3e0559d09506f03bb99609fba6a115e",
+                    "reference": "58e843eac3e0559d09506f03bb99609fba6a115e",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-05-16T12:13:41+00:00",
+                "time": "2019-05-16T13:23:10+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
