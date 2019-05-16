@@ -922,21 +922,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_copyright_block.git",
-                    "reference": "39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf"
+                    "reference": "40cac24f333d94f587f6027de90ca0a8a9055416"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf",
-                    "reference": "39b16d7e0ad4ba0ece3a6dd99c712ab12c51ccaf",
+                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/40cac24f333d94f587f6027de90ca0a8a9055416",
+                    "reference": "40cac24f333d94f587f6027de90ca0a8a9055416",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "cweagans/composer-patches": "~1.0",
                     "drupal/drupal-library-installer-plugin": "^0.3",
-                    "oomphinc/composer-installers-extender": "~1.0"
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
                 },
-                "time": "2019-05-16T13:14:07+00:00",
+                "time": "2019-05-16T13:44:31+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -962,7 +963,7 @@
                 "description": "Copyright blocks for use in D324 websites.",
                 "homepage": "https://github.com/t324inc/d324_copyright_block",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_copyright_block/issues"
                 }
             }
