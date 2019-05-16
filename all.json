@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "fc52e3b5217246c378155da96480f0942d274f43"
+                    "reference": "271ff19d3034995345e9a16861e45563be84b456"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/fc52e3b5217246c378155da96480f0942d274f43",
-                    "reference": "fc52e3b5217246c378155da96480f0942d274f43",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/271ff19d3034995345e9a16861e45563be84b456",
+                    "reference": "271ff19d3034995345e9a16861e45563be84b456",
                     "shasum": ""
                 },
                 "require": {
@@ -162,6 +162,7 @@
                     "drupal/drupal-library-installer-plugin": "^0.3",
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_blog": "8.7.x-dev",
+                    "t324inc/d324_copyright_block": "8.7.x-dev",
                     "t324inc/d324_core": "8.7.x-dev",
                     "t324inc/d324_media": "8.7.x-dev",
                     "t324inc/d324theme": "8.7.x-dev"
@@ -169,7 +170,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-13T22:30:09+00:00",
+                "time": "2019-05-16T12:17:08+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -671,6 +672,62 @@
                 "support": {
                     "source": "https://github.com/t324inc/d324-updater/tree/8.7.1",
                     "issues": "https://github.com/t324inc/d324-updater/issues"
+                }
+            }
+        },
+        "t324inc/d324-vm": {
+            "dev-master": {
+                "name": "t324inc/d324-vm",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324-vm.git",
+                    "reference": "6361ec1f650acfb5583ab6877fcbaf70f14aad8b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324-vm/zipball/6361ec1f650acfb5583ab6877fcbaf70f14aad8b",
+                    "reference": "6361ec1f650acfb5583ab6877fcbaf70f14aad8b",
+                    "shasum": ""
+                },
+                "time": "2019-05-14T11:37:28+00:00",
+                "type": "vm",
+                "scripts": {
+                    "run-tests": [
+                        "./tests/run-tests.sh"
+                    ],
+                    "docker-bake": [
+                        "./provisioning/docker/bake.sh"
+                    ],
+                    "docker-save-image": [
+                        "./provisioning/docker/save-image.sh"
+                    ],
+                    "docker-load-image": [
+                        "./provisioning/docker/load-image.sh"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com"
+                    }
+                ],
+                "description": "A VM for local D324 development, built with Vagrant + Ansible",
+                "homepage": "https://www.drupalvm.com",
+                "keywords": [
+                    "drupal",
+                    "vagrant",
+                    "virtual machine",
+                    "vm"
+                ],
+                "support": {
+                    "issues": "https://github.com/geerlingguy/drupal-vm/issues",
+                    "source": "https://github.com/geerlingguy/drupal-vm",
+                    "docs": "http://docs.drupalvm.com"
                 }
             }
         },
@@ -1409,7 +1466,7 @@
                 "description": "Manages type of media contents and entity browsers in the site.",
                 "homepage": "https://github.com/t324inc/d324_media",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_media/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_media/tree/8.7.1",
                     "issues": "https://github.com/t324inc/d324_media/issues"
                 }
             },
@@ -1610,7 +1667,7 @@
                 "description": "A base theme for D324 based on Radix. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
                 "homepage": "https://github.com/t324inc/d324theme",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324theme/tree/8.7.1.1",
                     "issues": "https://github.com/t324inc/d324theme/issues"
                 }
             },
@@ -1621,18 +1678,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "55e131096ca4c27dcd4c721d12ea09a8b84455e0"
+                    "reference": "214153ca25dde4e2667c056f4e9a2330bea853f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/55e131096ca4c27dcd4c721d12ea09a8b84455e0",
-                    "reference": "55e131096ca4c27dcd4c721d12ea09a8b84455e0",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/214153ca25dde4e2667c056f4e9a2330bea853f4",
+                    "reference": "214153ca25dde4e2667c056f4e9a2330bea853f4",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-05-13T22:24:50+00:00",
+                "time": "2019-05-16T12:13:41+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
