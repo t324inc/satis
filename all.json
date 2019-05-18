@@ -431,12 +431,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-project.git",
-                    "reference": "b3b21f0e7b6d30c89bc6cd24a34a8b53957e1d46"
+                    "reference": "86717c58f1abe07552d006c75d4534b62dda98a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/b3b21f0e7b6d30c89bc6cd24a34a8b53957e1d46",
-                    "reference": "b3b21f0e7b6d30c89bc6cd24a34a8b53957e1d46",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/86717c58f1abe07552d006c75d4534b62dda98a9",
+                    "reference": "86717c58f1abe07552d006c75d4534b62dda98a9",
                     "shasum": ""
                 },
                 "require": {
@@ -459,7 +459,7 @@
                 "conflict": {
                     "drupal/drupal": "*"
                 },
-                "time": "2019-05-18T04:19:26+00:00",
+                "time": "2019-05-18T05:47:42+00:00",
                 "type": "project",
                 "extra": {
                     "branch-alias": {
@@ -470,7 +470,9 @@
                     ],
                     "installer-types": [
                         "npm-asset",
-                        "bower-asset"
+                        "bower-asset",
+                        "d324-drupal-module",
+                        "d324-drupal-theme"
                     ],
                     "installer-paths": {
                         "web/core": [
@@ -482,8 +484,20 @@
                         "web/modules/contrib/{$name}": [
                             "type:drupal-module"
                         ],
+                        "web/modules/d324/{$name}": [
+                            "type:d324-drupal-module"
+                        ],
+                        "web/modules/custom/{$name}": [
+                            "type:custom-drupal-module"
+                        ],
                         "web/themes/contrib/{$name}": [
                             "type:drupal-theme"
+                        ],
+                        "web/themes/d324/{$name}": [
+                            "type:d324-drupal-theme"
+                        ],
+                        "web/themes/custom/{$name}": [
+                            "type:custom-drupal-theme"
                         ],
                         "web/libraries/slick": [
                             "npm-asset/slick-carousel"
