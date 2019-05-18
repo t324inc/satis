@@ -23,10 +23,14 @@
 			"type": "vcs",
 			"url": "https://github.com/t324inc/d324"
 		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/t324inc/d324theme"
-		},
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324theme"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324theme_admin"
+    },
 		{
 			"type": "vcs",
 			"url": "https://github.com/t324inc/d324_core"
