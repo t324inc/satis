@@ -431,12 +431,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-project.git",
-                    "reference": "030951bcb397d7166b196c3fde595a241ab551e7"
+                    "reference": "5a82c364851665691072df270b4e91a197f087b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/030951bcb397d7166b196c3fde595a241ab551e7",
-                    "reference": "030951bcb397d7166b196c3fde595a241ab551e7",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/5a82c364851665691072df270b4e91a197f087b8",
+                    "reference": "5a82c364851665691072df270b4e91a197f087b8",
                     "shasum": ""
                 },
                 "require": {
@@ -459,15 +459,12 @@
                 "conflict": {
                     "drupal/drupal": "*"
                 },
-                "time": "2019-05-18T07:59:55+00:00",
+                "time": "2019-05-18T08:10:20+00:00",
                 "type": "project",
                 "extra": {
                     "branch-alias": {
                         "dev-8.x": "8.x-dev"
                     },
-                    "web/profiles/{$name}": [
-                        "type:drupal-profile"
-                    ],
                     "installer-types": [
                         "npm-asset",
                         "bower-asset"
@@ -482,11 +479,11 @@
                         "web/themes/d324/{$name}": [
                             "t324inc/d324theme"
                         ],
-                        "web/modules/contrib/{$name}": [
-                            "type:drupal-module"
-                        ],
                         "web/modules/d324/{$name}": [
                             "vendor:t324inc"
+                        ],
+                        "web/modules/contrib/{$name}": [
+                            "type:drupal-module"
                         ],
                         "web/modules/custom/{$name}": [
                             "type:custom-drupal-module"
