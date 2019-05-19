@@ -43,10 +43,14 @@
 			"type": "vcs",
 			"url": "https://github.com/t324inc/d324_media"
 		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/t324inc/d324_copyright_block"
-		}
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_copyright_block"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_default_content"
+    }
 	],
 	"require-all": true,
 	"require-dependencies": false
