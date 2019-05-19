@@ -49,14 +49,14 @@
                 "description": "An admin theme based on Adminimal Theme for D324",
                 "homepage": "https://github.com/t324inc/d324theme_admin",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.x-7.,x",
+                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.1",
                     "issues": "https://github.com/t324inc/d324theme_admin/issues"
                 }
             },
-            "dev-8.x-7.,x": {
+            "dev-8.x-7.x": {
                 "name": "t324/d324theme_admin",
-                "version": "dev-8.x-7.,x",
-                "version_normalized": "dev-8.x-7.,x",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme_admin.git",
@@ -101,7 +101,7 @@
                 "description": "An admin theme based on Adminimal Theme for D324",
                 "homepage": "https://github.com/t324inc/d324theme_admin",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.x-7.,x",
+                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.1",
                     "issues": "https://github.com/t324inc/d324theme_admin/issues"
                 }
             }
