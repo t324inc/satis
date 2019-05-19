@@ -201,12 +201,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "22d6774774da307eae344cd51185ffde548ffcb7"
+                    "reference": "e0a019f427d2030948f26f5b988527b19055a0c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/22d6774774da307eae344cd51185ffde548ffcb7",
-                    "reference": "22d6774774da307eae344cd51185ffde548ffcb7",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/e0a019f427d2030948f26f5b988527b19055a0c0",
+                    "reference": "e0a019f427d2030948f26f5b988527b19055a0c0",
                     "shasum": ""
                 },
                 "require": {
@@ -219,12 +219,13 @@
                     "t324inc/d324_copyright_block": "8.7.x-dev",
                     "t324inc/d324_core": "8.7.x-dev",
                     "t324inc/d324_media": "8.7.x-dev",
-                    "t324inc/d324theme": "8.7.x-dev"
+                    "t324inc/d324theme": "8.7.x-dev",
+                    "t324inc/d324theme_admin": "8.7.x-dev"
                 },
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-18T05:29:52+00:00",
+                "time": "2019-05-19T00:20:09+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
