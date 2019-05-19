@@ -1,111 +1,5 @@
 {
     "packages": {
-        "t324/d324theme_admin": {
-            "8.7.1": {
-                "name": "t324/d324theme_admin",
-                "version": "8.7.1",
-                "version_normalized": "8.7.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/t324inc/d324theme_admin.git",
-                    "reference": "5c6ae152a1220be9926de2fbdfd72d7a26eaff8f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme_admin/zipball/5c6ae152a1220be9926de2fbdfd72d7a26eaff8f",
-                    "reference": "5c6ae152a1220be9926de2fbdfd72d7a26eaff8f",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "~1.0",
-                    "cweagans/composer-patches": "~1.0",
-                    "drupal/adminimal_theme": "~1.0",
-                    "drupal/drupal-library-installer-plugin": "^0.3",
-                    "oomphinc/composer-installers-extender": "~1.0"
-                },
-                "time": "2019-05-18T23:54:47+00:00",
-                "type": "drupal-theme",
-                "extra": {
-                    "branch-alias": {
-                        "dev-8.x-7.x": "8.7.x-dev"
-                    },
-                    "installer-types": [
-                        "bower-asset",
-                        "npm-asset"
-                    ],
-                    "enable-patching": true,
-                    "composer-exit-on-patch-failure": true
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "T324",
-                        "homepage": "https://www.t324.com",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "An admin theme based on Adminimal Theme for D324",
-                "homepage": "https://github.com/t324inc/d324theme_admin",
-                "support": {
-                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.1",
-                    "issues": "https://github.com/t324inc/d324theme_admin/issues"
-                }
-            },
-            "dev-8.x-7.x": {
-                "name": "t324/d324theme_admin",
-                "version": "dev-8.x-7.x",
-                "version_normalized": "dev-8.x-7.x",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/t324inc/d324theme_admin.git",
-                    "reference": "5c6ae152a1220be9926de2fbdfd72d7a26eaff8f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme_admin/zipball/5c6ae152a1220be9926de2fbdfd72d7a26eaff8f",
-                    "reference": "5c6ae152a1220be9926de2fbdfd72d7a26eaff8f",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "~1.0",
-                    "cweagans/composer-patches": "~1.0",
-                    "drupal/adminimal_theme": "~1.0",
-                    "drupal/drupal-library-installer-plugin": "^0.3",
-                    "oomphinc/composer-installers-extender": "~1.0"
-                },
-                "time": "2019-05-18T23:54:47+00:00",
-                "type": "drupal-theme",
-                "extra": {
-                    "branch-alias": {
-                        "dev-8.x-7.x": "8.7.x-dev"
-                    },
-                    "installer-types": [
-                        "bower-asset",
-                        "npm-asset"
-                    ],
-                    "enable-patching": true,
-                    "composer-exit-on-patch-failure": true
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "T324",
-                        "homepage": "https://www.t324.com",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "An admin theme based on Adminimal Theme for D324",
-                "homepage": "https://github.com/t324inc/d324theme_admin",
-                "support": {
-                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.1",
-                    "issues": "https://github.com/t324inc/d324theme_admin/issues"
-                }
-            }
-        },
         "t324inc/d324": {
             "8.7.1": {
                 "name": "t324inc/d324",
@@ -1925,6 +1819,112 @@
                 "support": {
                     "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324theme/issues"
+                }
+            }
+        },
+        "t324inc/d324theme_admin": {
+            "8.7.1": {
+                "name": "t324inc/d324theme_admin",
+                "version": "8.7.1",
+                "version_normalized": "8.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324theme_admin.git",
+                    "reference": "5c6ae152a1220be9926de2fbdfd72d7a26eaff8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324theme_admin/zipball/5c6ae152a1220be9926de2fbdfd72d7a26eaff8f",
+                    "reference": "5c6ae152a1220be9926de2fbdfd72d7a26eaff8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/adminimal_theme": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-18T23:54:47+00:00",
+                "type": "drupal-theme",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "An admin theme based on Adminimal Theme for D324",
+                "homepage": "https://github.com/t324inc/d324theme_admin",
+                "support": {
+                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324theme_admin/issues"
+                }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324theme_admin",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324theme_admin.git",
+                    "reference": "dbf1e86c5498dba71baafa5ccb7a1fecdb70a453"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324theme_admin/zipball/dbf1e86c5498dba71baafa5ccb7a1fecdb70a453",
+                    "reference": "dbf1e86c5498dba71baafa5ccb7a1fecdb70a453",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/adminimal_theme": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-19T00:36:47+00:00",
+                "type": "drupal-theme",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "An admin theme based on Adminimal Theme for D324",
+                "homepage": "https://github.com/t324inc/d324theme_admin",
+                "support": {
+                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324theme_admin/issues"
                 }
             }
         }
