@@ -1523,12 +1523,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_default_content.git",
-                    "reference": "92c3f89a2858b1a3f7c1aecc594cd606362bcfc3"
+                    "reference": "ef24376dac78a97d5508f9d1701a3991dbb15a1a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_default_content/zipball/92c3f89a2858b1a3f7c1aecc594cd606362bcfc3",
-                    "reference": "92c3f89a2858b1a3f7c1aecc594cd606362bcfc3",
+                    "url": "https://api.github.com/repos/t324inc/d324_default_content/zipball/ef24376dac78a97d5508f9d1701a3991dbb15a1a",
+                    "reference": "ef24376dac78a97d5508f9d1701a3991dbb15a1a",
                     "shasum": ""
                 },
                 "require": {
@@ -1537,7 +1537,7 @@
                     "drupal/drupal-library-installer-plugin": "^0.3",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-19T04:50:30+00:00",
+                "time": "2019-05-19T05:34:09+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1563,7 +1563,7 @@
                 "description": "Provides starter default content for D324.",
                 "homepage": "https://github.com/t324inc/d324_default_content",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_default_content/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324_default_content/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_default_content/issues"
                 }
             }
