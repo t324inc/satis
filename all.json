@@ -1978,7 +1978,7 @@
                 "description": "An admin theme based on Adminimal Theme for D324",
                 "homepage": "https://github.com/t324inc/d324theme_admin",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.1",
                     "issues": "https://github.com/t324inc/d324theme_admin/issues"
                 }
             },
