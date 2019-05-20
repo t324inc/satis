@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "7b306e83d7267eb125fbdeadde34e2ca458ed146"
+                    "reference": "435df646601339af2cda39672158be3378c81263"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/7b306e83d7267eb125fbdeadde34e2ca458ed146",
-                    "reference": "7b306e83d7267eb125fbdeadde34e2ca458ed146",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/435df646601339af2cda39672158be3378c81263",
+                    "reference": "435df646601339af2cda39672158be3378c81263",
                     "shasum": ""
                 },
                 "require": {
@@ -172,7 +172,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-20T05:10:49+00:00",
+                "time": "2019-05-20T07:57:39+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -1989,12 +1989,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme_admin.git",
-                    "reference": "a40df3366aaa3ce3c269ffaf48a30b9e0ffead33"
+                    "reference": "22f30e5eb7f3ffa127e1b038d95878b6db14b7aa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme_admin/zipball/a40df3366aaa3ce3c269ffaf48a30b9e0ffead33",
-                    "reference": "a40df3366aaa3ce3c269ffaf48a30b9e0ffead33",
+                    "url": "https://api.github.com/repos/t324inc/d324theme_admin/zipball/22f30e5eb7f3ffa127e1b038d95878b6db14b7aa",
+                    "reference": "22f30e5eb7f3ffa127e1b038d95878b6db14b7aa",
                     "shasum": ""
                 },
                 "require": {
@@ -2004,7 +2004,7 @@
                     "drupal/drupal-library-installer-plugin": "^0.3",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-20T04:41:38+00:00",
+                "time": "2019-05-20T08:32:43+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
