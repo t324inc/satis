@@ -13,12 +13,48 @@
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/t324inc/d324"
+			"url": "https://github.com/t324inc/d324-updater"
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/t324inc/d324-core"
-		}
+			"url": "https://github.com/t324inc/d324-vm"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/t324inc/d324"
+		},
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324theme"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324theme_admin"
+    },
+		{
+			"type": "vcs",
+			"url": "https://github.com/t324inc/d324_core"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/t324inc/d324_blog"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/t324inc/d324_media"
+		},
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_copyright_block"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_default_content"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_gutenberg"
+    }
 	],
 	"require-all": true,
 	"require-dependencies": false
