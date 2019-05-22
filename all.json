@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "435df646601339af2cda39672158be3378c81263"
+                    "reference": "3780fe326f9ee8137d1dea98c19ec89ef0c54be7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/435df646601339af2cda39672158be3378c81263",
-                    "reference": "435df646601339af2cda39672158be3378c81263",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/3780fe326f9ee8137d1dea98c19ec89ef0c54be7",
+                    "reference": "3780fe326f9ee8137d1dea98c19ec89ef0c54be7",
                     "shasum": ""
                 },
                 "require": {
@@ -172,7 +172,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-20T07:57:39+00:00",
+                "time": "2019-05-20T19:40:26+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -1567,6 +1567,110 @@
                 "support": {
                     "source": "https://github.com/t324inc/d324_default_content/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_default_content/issues"
+                }
+            }
+        },
+        "t324inc/d324_gutenberg": {
+            "8.7.1": {
+                "name": "t324inc/d324_gutenberg",
+                "version": "8.7.1",
+                "version_normalized": "8.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_gutenberg.git",
+                    "reference": "7c4aa80f6c6fcb1f43a688b7fc339eef7715861f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_gutenberg/zipball/7c4aa80f6c6fcb1f43a688b7fc339eef7715861f",
+                    "reference": "7c4aa80f6c6fcb1f43a688b7fc339eef7715861f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-22T19:44:40+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Custom blocks and settings for the Gutenberg editor.",
+                "homepage": "https://github.com/t324inc/d324_gutenberg",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_gutenberg/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_gutenberg/issues"
+                }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324_gutenberg",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_gutenberg.git",
+                    "reference": "7c4aa80f6c6fcb1f43a688b7fc339eef7715861f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_gutenberg/zipball/7c4aa80f6c6fcb1f43a688b7fc339eef7715861f",
+                    "reference": "7c4aa80f6c6fcb1f43a688b7fc339eef7715861f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-22T19:44:40+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Custom blocks and settings for the Gutenberg editor.",
+                "homepage": "https://github.com/t324inc/d324_gutenberg",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_gutenberg/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_gutenberg/issues"
                 }
             }
         },
