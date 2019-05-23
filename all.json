@@ -1793,12 +1793,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "c1452b55f878f363d7ddbc59a94fa6e8baaf51ce"
+                    "reference": "72bce5cf136ab55df90a2eba9411e48e8bc9e1d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/c1452b55f878f363d7ddbc59a94fa6e8baaf51ce",
-                    "reference": "c1452b55f878f363d7ddbc59a94fa6e8baaf51ce",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/72bce5cf136ab55df90a2eba9411e48e8bc9e1d0",
+                    "reference": "72bce5cf136ab55df90a2eba9411e48e8bc9e1d0",
                     "shasum": ""
                 },
                 "require": {
@@ -1806,6 +1806,7 @@
                     "cweagans/composer-patches": "~1.0",
                     "drupal/better_exposed_filters": "~3.0",
                     "drupal/blazy": "~2.0",
+                    "drupal/colorbox": "^1.4",
                     "drupal/crop": "~2.0",
                     "drupal/dropzonejs": "~2.0",
                     "drupal/drupal-library-installer-plugin": "^0.3",
@@ -1832,7 +1833,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-05-23T12:15:27+00:00",
+                "time": "2019-05-23T13:00:45+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1865,6 +1866,10 @@
                             {
                                 "name": "slick",
                                 "package": "npm-asset/slick-carousel"
+                            },
+                            {
+                                "name": "colorbox",
+                                "package": "bower-asset/colorbox"
                             }
                         ]
                     },
