@@ -686,15 +686,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-vm.git",
-                    "reference": "d63c8b75769376ad9e645b2a9e8d9ad9f2f47012"
+                    "reference": "e5ab5de35741edaaa849a6f2ac8bd8d7636d459b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-vm/zipball/d63c8b75769376ad9e645b2a9e8d9ad9f2f47012",
-                    "reference": "d63c8b75769376ad9e645b2a9e8d9ad9f2f47012",
+                    "url": "https://api.github.com/repos/t324inc/d324-vm/zipball/e5ab5de35741edaaa849a6f2ac8bd8d7636d459b",
+                    "reference": "e5ab5de35741edaaa849a6f2ac8bd8d7636d459b",
                     "shasum": ""
                 },
-                "time": "2019-05-23T02:44:41+00:00",
+                "time": "2019-05-23T03:53:12+00:00",
                 "type": "vm",
                 "scripts": {
                     "run-tests": [
@@ -1300,12 +1300,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "af149f90728fe4f7f51ebc8b3a4488ca6b65b1b8"
+                    "reference": "c326ba19f9f9dac6702797a07931ded6e1998d3c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/af149f90728fe4f7f51ebc8b3a4488ca6b65b1b8",
-                    "reference": "af149f90728fe4f7f51ebc8b3a4488ca6b65b1b8",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/c326ba19f9f9dac6702797a07931ded6e1998d3c",
+                    "reference": "c326ba19f9f9dac6702797a07931ded6e1998d3c",
                     "shasum": ""
                 },
                 "require": {
@@ -1397,7 +1397,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-20T14:46:25+00:00",
+                "time": "2019-05-23T12:10:29+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1421,9 +1421,6 @@
                             "Issue #2900089: Invalid translation language error when selected installation language does not match demo content language": "https://www.drupal.org/files/issues/2900089-14.patch",
                             "Issue #2886350: Allow export of all site content.": "https://www.drupal.org/files/issues/default_content-export_all_content-2886350-2-D8.patch"
                         },
-                        "drupal/ctools": {
-                            "Issue #2820783: Fix Block.php notices and warnings.": "https://www.drupal.org/files/issues/2019-02-18/ctools-Block.php_notices_and_warnings-2820783-51-D8.patch"
-                        },
                         "drupal/ds": {
                             "Issue #2920868: Fix fatal errors when we have missing layouts, on an update": "https://www.drupal.org/files/issues/2019-03-03/2920868-12.patch"
                         },
@@ -1445,6 +1442,9 @@
                         },
                         "drupal/link_attributes": {
                             "Issue #3050455: Array to string conversion in Drupal\\Core\\Template\\AttributeArray->__toString()": "https://www.drupal.org/files/issues/2019-04-24/3050455-2.link_attributes.Array-to-string-conversion-in-DrupalCoreTemplateAttributeArraytoString.patch"
+                        },
+                        "drupal/blazy": {
+                            "Issue #3054230: Images added via RTE with caption enabled not displayed": "https://www.drupal.org/files/issues/2019-05-12/3054230-4-caption-compatibility.patch"
                         }
                     }
                 },
