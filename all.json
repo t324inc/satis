@@ -686,15 +686,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-vm.git",
-                    "reference": "45c673465f9e6df33ccd980fda4aa428f9aac823"
+                    "reference": "d63c8b75769376ad9e645b2a9e8d9ad9f2f47012"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-vm/zipball/45c673465f9e6df33ccd980fda4aa428f9aac823",
-                    "reference": "45c673465f9e6df33ccd980fda4aa428f9aac823",
+                    "url": "https://api.github.com/repos/t324inc/d324-vm/zipball/d63c8b75769376ad9e645b2a9e8d9ad9f2f47012",
+                    "reference": "d63c8b75769376ad9e645b2a9e8d9ad9f2f47012",
                     "shasum": ""
                 },
-                "time": "2019-05-23T01:02:08+00:00",
+                "time": "2019-05-23T02:44:41+00:00",
                 "type": "vm",
                 "scripts": {
                     "run-tests": [
