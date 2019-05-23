@@ -147,12 +147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "3780fe326f9ee8137d1dea98c19ec89ef0c54be7"
+                    "reference": "1b3ca6a247f7d66287ffad6fdd0e3079206a2830"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/3780fe326f9ee8137d1dea98c19ec89ef0c54be7",
-                    "reference": "3780fe326f9ee8137d1dea98c19ec89ef0c54be7",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/1b3ca6a247f7d66287ffad6fdd0e3079206a2830",
+                    "reference": "1b3ca6a247f7d66287ffad6fdd0e3079206a2830",
                     "shasum": ""
                 },
                 "require": {
@@ -172,7 +172,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-20T19:40:26+00:00",
+                "time": "2019-05-23T13:18:59+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -1300,12 +1300,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "8fd66499d936798865fe6348601f8af2b6a0ed2b"
+                    "reference": "3bcaed93119b1f54ca72741c9de4e8b8279d4ff1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/8fd66499d936798865fe6348601f8af2b6a0ed2b",
-                    "reference": "8fd66499d936798865fe6348601f8af2b6a0ed2b",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/3bcaed93119b1f54ca72741c9de4e8b8279d4ff1",
+                    "reference": "3bcaed93119b1f54ca72741c9de4e8b8279d4ff1",
                     "shasum": ""
                 },
                 "require": {
@@ -1330,7 +1330,7 @@
                     "drupal/config_ignore": "~2.0",
                     "drupal/config_update": "~1.0",
                     "drupal/content_lock": "~1.0",
-                    "drupal/core": "^8.7.1",
+                    "drupal/core": "^8.7.2",
                     "drupal/ctools": "3.2",
                     "drupal/default_content": "1.0-alpha8",
                     "drupal/devel": "*",
@@ -1397,7 +1397,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-23T12:17:37+00:00",
+                "time": "2019-05-23T13:18:59+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
