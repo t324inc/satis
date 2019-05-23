@@ -1300,12 +1300,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "c326ba19f9f9dac6702797a07931ded6e1998d3c"
+                    "reference": "8fd66499d936798865fe6348601f8af2b6a0ed2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/c326ba19f9f9dac6702797a07931ded6e1998d3c",
-                    "reference": "c326ba19f9f9dac6702797a07931ded6e1998d3c",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/8fd66499d936798865fe6348601f8af2b6a0ed2b",
+                    "reference": "8fd66499d936798865fe6348601f8af2b6a0ed2b",
                     "shasum": ""
                 },
                 "require": {
@@ -1397,7 +1397,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-23T12:10:29+00:00",
+                "time": "2019-05-23T12:17:37+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1442,9 +1442,6 @@
                         },
                         "drupal/link_attributes": {
                             "Issue #3050455: Array to string conversion in Drupal\\Core\\Template\\AttributeArray->__toString()": "https://www.drupal.org/files/issues/2019-04-24/3050455-2.link_attributes.Array-to-string-conversion-in-DrupalCoreTemplateAttributeArraytoString.patch"
-                        },
-                        "drupal/blazy": {
-                            "Issue #3054230: Images added via RTE with caption enabled not displayed": "https://www.drupal.org/files/issues/2019-05-12/3054230-4-caption-compatibility.patch"
                         }
                     }
                 },
@@ -1796,12 +1793,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "6a60636b0bca496d1d9904381d997f37481f0745"
+                    "reference": "c1452b55f878f363d7ddbc59a94fa6e8baaf51ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/6a60636b0bca496d1d9904381d997f37481f0745",
-                    "reference": "6a60636b0bca496d1d9904381d997f37481f0745",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/c1452b55f878f363d7ddbc59a94fa6e8baaf51ce",
+                    "reference": "c1452b55f878f363d7ddbc59a94fa6e8baaf51ce",
                     "shasum": ""
                 },
                 "require": {
@@ -1835,7 +1832,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-05-19T21:05:56+00:00",
+                "time": "2019-05-23T12:15:27+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1884,6 +1881,9 @@
                         "drupal/entity_browser": {
                             "Issue #2865928: The View widget should filter based on field settings.": "https://www.drupal.org/files/issues/entity-browser-view-context-2865928-14.patch",
                             "Issue #2877751: Inform users how many items they can add to a field that uses an entity browser.": "https://www.drupal.org/files/issues/2877751-27-8.x-2.x.patch"
+                        },
+                        "drupal/blazy": {
+                            "Issue #3054230: Images added via RTE with caption enabled not displayed": "https://www.drupal.org/files/issues/2019-05-12/3054230-4-caption-compatibility.patch"
                         }
                     }
                 },
