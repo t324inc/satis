@@ -140,6 +140,151 @@
                     "issues": "https://github.com/t324inc/d324/issues"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324.git",
+                    "reference": "1b3ca6a247f7d66287ffad6fdd0e3079206a2830"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/1b3ca6a247f7d66287ffad6fdd0e3079206a2830",
+                    "reference": "1b3ca6a247f7d66287ffad6fdd0e3079206a2830",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal-composer/drupal-scaffold": "~2.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_blog": "8.7.x-dev",
+                    "t324inc/d324_copyright_block": "8.7.x-dev",
+                    "t324inc/d324_core": "8.7.x-dev",
+                    "t324inc/d324_default_content": "8.7.x-dev",
+                    "t324inc/d324_media": "8.7.x-dev",
+                    "t324inc/d324theme": "8.7.x-dev",
+                    "t324inc/d324theme_admin": "8.7.x-dev"
+                },
+                "require-dev": {
+                    "phing/phing": "~2.0"
+                },
+                "time": "2019-05-23T13:18:59+00:00",
+                "type": "drupal-profile",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "installer-paths": {
+                        "web/core": [
+                            "type:drupal-core"
+                        ],
+                        "web/profiles/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "web/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "web/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "web/libraries/slick": [
+                            "npm-asset/slick-carousel"
+                        ],
+                        "web/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "web/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "web/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "drush/contrib/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "drupal-libraries": {
+                        "library-directory": "web/libraries",
+                        "libraries": [
+                            {
+                                "name": "dropzone",
+                                "package": "npm-asset/dropzone"
+                            },
+                            {
+                                "name": "blazy",
+                                "package": "npm-asset/blazy"
+                            },
+                            {
+                                "name": "slick",
+                                "package": "npm-asset/slick-carousel"
+                            }
+                        ]
+                    },
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patchLevel": {
+                        "drupal/core": "-p2"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "D324\\composer\\": "src/composer"
+                    }
+                },
+                "scripts": {
+                    "drupal-scaffold": [
+                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+                    ],
+                    "pre-install-cmd": [
+                        "D324\\composer\\ScriptHandler::checkComposerVersion"
+                    ],
+                    "pre-update-cmd": [
+                        "D324\\composer\\ScriptHandler::checkComposerVersion"
+                    ],
+                    "post-install-cmd": [
+                        "D324\\composer\\ScriptHandler::createRequiredFiles",
+                        "D324\\composer\\ScriptHandler::removeGitDirectories",
+                        "@composer drupal-scaffold",
+                        "./bin/phing push"
+                    ],
+                    "post-update-cmd": [
+                        "D324\\composer\\ScriptHandler::createRequiredFiles",
+                        "D324\\composer\\ScriptHandler::removeGitDirectories",
+                        "./bin/phing push"
+                    ],
+                    "post-drupal-scaffold-cmd": [
+                        "D324\\composer\\ScriptHandler::postDrupalScaffoldProcedure"
+                    ],
+                    "create-new-d324theme": [
+                        "scripts/create-new-d324theme.sh"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "D324 - T324 Drupal 8 Distribution",
+                "support": {
+                    "source": "https://github.com/t324inc/d324/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324/issues"
+                }
+            },
             "dev-8.x-7.x": {
                 "name": "t324inc/d324",
                 "version": "dev-8.x-7.x",
@@ -425,6 +570,154 @@
                     "source": "https://github.com/t324inc/d324-project/tree/8.7.1"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324-project",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324-project.git",
+                    "reference": "4415ef0ebf680375a282c5a369e80bab5922bf57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/4415ef0ebf680375a282c5a369e80bab5922bf57",
+                    "reference": "4415ef0ebf680375a282c5a369e80bab5922bf57",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.2",
+                    "cweagans/composer-patches": "^1.6.5",
+                    "drupal-composer/drupal-scaffold": "^2.5",
+                    "drupal/console": "^1.0.2",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drush/drush": "^9.0.0",
+                    "oomphinc/composer-installers-extender": "^1.1.2",
+                    "php": ">=7.2",
+                    "t324inc/d324": "8.7.x-dev",
+                    "t324inc/d324-updater": "8.7.x-dev",
+                    "vlucas/phpdotenv": "^3.3",
+                    "webflo/drupal-finder": "^1.0.0",
+                    "webmozart/path-util": "^2.3",
+                    "zaporylie/composer-drupal-optimizations": "^1.1"
+                },
+                "conflict": {
+                    "drupal/drupal": "*"
+                },
+                "time": "2019-05-20T19:39:26+00:00",
+                "type": "project",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x": "8.x-dev"
+                    },
+                    "installer-types": [
+                        "npm-asset",
+                        "bower-asset"
+                    ],
+                    "installer-paths": {
+                        "web/core": [
+                            "type:drupal-core"
+                        ],
+                        "web/profiles/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "web/themes/d324/{$name}": [
+                            "t324inc/d324theme",
+                            "t324inc/d324theme_admin"
+                        ],
+                        "web/modules/d324/{$name}": [
+                            "vendor:t324inc"
+                        ],
+                        "web/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "web/modules/custom/{$name}": [
+                            "type:custom-drupal-module"
+                        ],
+                        "web/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "web/themes/custom/{$name}": [
+                            "type:custom-drupal-theme"
+                        ],
+                        "web/libraries/slick": [
+                            "npm-asset/slick-carousel"
+                        ],
+                        "web/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:npm-asset",
+                            "type:bower-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "drupal-libraries": {
+                        "library-directory": "web/libraries",
+                        "libraries": [
+                            {
+                                "name": "dropzone",
+                                "package": "npm-asset/dropzone"
+                            },
+                            {
+                                "name": "blazy",
+                                "package": "npm-asset/blazy"
+                            },
+                            {
+                                "name": "slick",
+                                "package": "npm-asset/slick-carousel"
+                            }
+                        ]
+                    },
+                    "drupal-scaffold": {
+                        "initial": {
+                            ".editorconfig": "../.editorconfig",
+                            ".gitattributes": "../.gitattributes"
+                        }
+                    },
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patchLevel": {
+                        "drupal/core": "-p2"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "load.environment.php"
+                    ]
+                },
+                "scripts": {
+                    "drupal-scaffold": [
+                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+                    ],
+                    "post-install-cmd": [
+                        "D324\\composer\\ScriptHandler::createRequiredFiles",
+                        "D324\\composer\\ScriptHandler::removeGitDirectories",
+                        "@composer drupal-scaffold"
+                    ],
+                    "post-update-cmd": [
+                        "D324\\composer\\ScriptHandler::createRequiredFiles",
+                        "D324\\composer\\ScriptHandler::removeGitDirectories"
+                    ],
+                    "post-drupal-scaffold-cmd": [
+                        "D324\\composer\\ScriptHandler::postDrupalScaffoldProcedure"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "D324 Project Template - An Optimal Drupal 8 Project by T324",
+                "support": {
+                    "source": "https://github.com/t324inc/d324-project/tree/8.x"
+                }
+            },
             "8.x-dev": {
                 "name": "t324inc/d324-project",
                 "version": "8.x-dev",
@@ -626,6 +919,57 @@
                     "issues": "https://github.com/t324inc/d324-updater/issues"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324-updater",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324-updater.git",
+                    "reference": "ac525ec758aed60ab9c9140af1e983e88ef5348e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324-updater/zipball/ac525ec758aed60ab9c9140af1e983e88ef5348e",
+                    "reference": "ac525ec758aed60ab9c9140af1e983e88ef5348e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.1",
+                    "symfony/yaml": "^3.1"
+                },
+                "time": "2019-05-18T00:57:08+00:00",
+                "bin": [
+                    "scripts/update/update-d324.sh"
+                ],
+                "type": "composer-plugin",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "class": "t324inc\\Composer\\Plugin\\D324Updater"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "t324inc\\Composer\\": "src"
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://github.com/t324inc",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "A set of scripts and tools that will help you to update to the newer versions of D324.",
+                "support": {
+                    "source": "https://github.com/t324inc/d324-updater/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324-updater/issues"
+                }
+            },
             "dev-8.x-7.x": {
                 "name": "t324inc/d324-updater",
                 "version": "dev-8.x-7.x",
@@ -796,6 +1140,67 @@
                     "issues": "https://github.com/t324inc/d324_blog/issues"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324_blog",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_blog.git",
+                    "reference": "14a68e50c56b8c60a802fdac68440d35cdb31442"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_blog/zipball/14a68e50c56b8c60a802fdac68440d35cdb31442",
+                    "reference": "14a68e50c56b8c60a802fdac68440d35cdb31442",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/advanced_text_formatter": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/length_indicator": "~1.0",
+                    "drupal/maxlength": "~1.0",
+                    "drupal/taxonomy_menu": "3.4",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-05-19T21:05:56+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patches": {
+                        "drupal/taxonomy_menu": {
+                            "Issue #2939143: Fixed Undefined method TaxonomyMenu::generateTaxonomyLinks()": "https://www.drupal.org/files/issues/2018-12-23/2939143-10.patch"
+                        }
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides Blog post content type and related configuration.",
+                "homepage": "https://github.com/t324inc/d324_blog",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_blog/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324_blog/issues"
+                }
+            },
             "dev-8.x-7.x": {
                 "name": "t324inc/d324_blog",
                 "version": "dev-8.x-7.x",
@@ -907,6 +1312,58 @@
                 "homepage": "https://github.com/t324inc/d324_copyright_block",
                 "support": {
                     "source": "https://github.com/t324inc/d324_copyright_block/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_copyright_block/issues"
+                }
+            },
+            "8.7.2": {
+                "name": "t324inc/d324_copyright_block",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_copyright_block.git",
+                    "reference": "9e5d06eb708a5c66dc124f3df19674e687f1c847"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/9e5d06eb708a5c66dc124f3df19674e687f1c847",
+                    "reference": "9e5d06eb708a5c66dc124f3df19674e687f1c847",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-05-18T07:50:43+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Copyright blocks for use in D324 websites.",
+                "homepage": "https://github.com/t324inc/d324_copyright_block",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_copyright_block/issues"
                 }
             },
@@ -1293,6 +1750,175 @@
                     "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324_core",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_core.git",
+                    "reference": "3bcaed93119b1f54ca72741c9de4e8b8279d4ff1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/3bcaed93119b1f54ca72741c9de4e8b8279d4ff1",
+                    "reference": "3bcaed93119b1f54ca72741c9de4e8b8279d4ff1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/addtoany": "^1.12",
+                    "drupal/admin_toolbar": "~1.0",
+                    "drupal/adminimal_admin_toolbar": "~1.0",
+                    "drupal/adminimal_theme": "^1.4",
+                    "drupal/advanced_text_formatter": "~1.0",
+                    "drupal/backup_migrate": "^4.0",
+                    "drupal/better_exposed_filters": "~3.0",
+                    "drupal/betterlogin": "~1.0",
+                    "drupal/block_class": "~1.0",
+                    "drupal/bootstrap_layouts": "~5.0",
+                    "drupal/captcha": "~1.0",
+                    "drupal/checklistapi": "~1.0",
+                    "drupal/coffee": "1.0-beta2",
+                    "drupal/color_field": "~2.0",
+                    "drupal/components": "^1.1",
+                    "drupal/config_filter": "~1.0",
+                    "drupal/config_ignore": "~2.0",
+                    "drupal/config_update": "~1.0",
+                    "drupal/content_lock": "~1.0",
+                    "drupal/core": "^8.7.2",
+                    "drupal/ctools": "3.2",
+                    "drupal/default_content": "1.0-alpha8",
+                    "drupal/devel": "*",
+                    "drupal/diff": "~1.0",
+                    "drupal/drd_agent": "~3.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/ds": "3.3",
+                    "drupal/entity": "~1.0",
+                    "drupal/entity_clone": "~1.0",
+                    "drupal/entity_reference_revisions": "~1.0",
+                    "drupal/entityqueue": "~1.0",
+                    "drupal/entityqueue_form_widget": "~1.0",
+                    "drupal/extlink": "~1.0",
+                    "drupal/fast_404": "~1.0",
+                    "drupal/features": "~3.0",
+                    "drupal/field_group": "3.0-beta1",
+                    "drupal/gutenberg": "1.x-dev",
+                    "drupal/honeypot": "~1.0",
+                    "drupal/inline_entity_form": "~1.0",
+                    "drupal/kint": "^2.1",
+                    "drupal/layout_builder_restrictions": "~1.0",
+                    "drupal/length_indicator": "1.0-rc3",
+                    "drupal/libraries": "~3.0",
+                    "drupal/libraries_ui": "~1.0",
+                    "drupal/link_attributes": "~1.0",
+                    "drupal/login_destination": "~1.0",
+                    "drupal/mailsystem": "~4.0",
+                    "drupal/masquerade": "~2.0",
+                    "drupal/maxlength": "~1.0",
+                    "drupal/menu_admin_per_menu": "~1.0",
+                    "drupal/menu_block": "~1.0",
+                    "drupal/menu_position": "~1.0",
+                    "drupal/metatag": "^1.8",
+                    "drupal/node_edit_protection": "~1.0",
+                    "drupal/page_manager": "4.0-beta3",
+                    "drupal/panels": "~4.0",
+                    "drupal/password_policy": "3.0-alpha4",
+                    "drupal/rabbit_hole": "~1.0",
+                    "drupal/radix": "^4.3",
+                    "drupal/recaptcha": "~2.0",
+                    "drupal/redis": "^1.1",
+                    "drupal/responsive_preview": "~1.0",
+                    "drupal/revision_log_default": "~1.0",
+                    "drupal/seo_checklist": "^4.1",
+                    "drupal/smart_trim": "~1.0",
+                    "drupal/smtp": "~1.0",
+                    "drupal/swiftmailer": "^1.0-beta2",
+                    "drupal/taxonomy_access_fix": "~2.0",
+                    "drupal/token": "~1.0",
+                    "drupal/tour_builder": "~1.0",
+                    "drupal/tour_ui": "~1.0",
+                    "drupal/ultimate_cron": "~2.0",
+                    "drupal/update_helper": "1.0",
+                    "drupal/username_enumeration_prevention": "~1.0",
+                    "drupal/views_bootstrap": "~3.0",
+                    "drupal/views_bulk_edit": "~2.0",
+                    "drupal/views_bulk_operations": "~2.0",
+                    "drupal/views_infinite_scroll": "~1.0",
+                    "drupal/viewsreference": "~2.0",
+                    "drupal/webform": "~5.0",
+                    "drupal/webform_analysis": "~1.0",
+                    "drupal/webform_views": "~5.0",
+                    "drupal/yoast_seo": "^1.5",
+                    "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-23T13:18:59+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patches": {
+                        "drupal/redis": {
+                            "Issue #2882796 Add support for persistent connections to redis host": "https://www.drupal.org/files/issues/2018-11-13/2882796-persist-connection_0.patch"
+                        },
+                        "drupal/coffee": {
+                            "Issue #2815381: Coffee breaks whole page when using right to left (rtl) languages in drupal 8": "https://www.drupal.org/files/issues/coffee-coffee_breaks_page_with_rtl-2815381-6.patch",
+                            "Issue #2872093: Coffee css fixes in RTL": "https://www.drupal.org/files/issues/2872093-10.patch"
+                        },
+                        "drupal/default_content": {
+                            "Issue #2900089: Invalid translation language error when selected installation language does not match demo content language": "https://www.drupal.org/files/issues/2900089-14.patch",
+                            "Issue #2886350: Allow export of all site content.": "https://www.drupal.org/files/issues/default_content-export_all_content-2886350-2-D8.patch"
+                        },
+                        "drupal/ds": {
+                            "Issue #2920868: Fix fatal errors when we have missing layouts, on an update": "https://www.drupal.org/files/issues/2019-03-03/2920868-12.patch"
+                        },
+                        "drupal/page_manager": {
+                            "Issue #2665328: Variants take entity label not the variant title": "https://www.drupal.org/files/issues/2018-12-12/2665328-variants-take-entity-label-87.patch",
+                            "Issue #3033057: Page Manager currently not working with CTools 3.1": "https://www.drupal.org/files/issues/2019-02-23/3033057-13.patch"
+                        },
+                        "drupal/field_group": {
+                            "Issue #2921228: Accordion does not work": "https://www.drupal.org/files/issues/field_group_accordion-2921228-3.patch"
+                        },
+                        "drupal/update_helper": {
+                            "Issue #3024165: [PATCH] Enhancements, Better messages for the unable to apply updates, drush command and removed the Mark all updates as successful on install": "https://www.drupal.org/files/issues/2019-05-08/3024165-25.patch"
+                        },
+                        "drupal/length_indicator": {
+                            "Issue #3048286: Add cursor position direction support for RTL": "https://www.drupal.org/files/issues/2019-04-15/3048286-3.patch"
+                        },
+                        "drupal/password_policy": {
+                            "Issue #3032549: Fix Password policy module issue with saving constraint": "https://www.drupal.org/files/issues/2019-04-28/3032549-18.patch"
+                        },
+                        "drupal/link_attributes": {
+                            "Issue #3050455: Array to string conversion in Drupal\\Core\\Template\\AttributeArray->__toString()": "https://www.drupal.org/files/issues/2019-04-24/3050455-2.link_attributes.Array-to-string-conversion-in-DrupalCoreTemplateAttributeArraytoString.patch"
+                        }
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "This is the Core D324 feature. Provides core components required by other features.",
+                "homepage": "https://www.drupal.org/project/d324_core",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_core/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324_core/issues"
+                }
+            },
             "dev-8.x-7.x": {
                 "name": "t324inc/d324_core",
                 "version": "dev-8.x-7.x",
@@ -1515,6 +2141,57 @@
                     "issues": "https://github.com/t324inc/d324_default_content/issues"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324_default_content",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_default_content.git",
+                    "reference": "2983e059907b44633ef3b7e33266c4bf8a9aef1d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_default_content/zipball/2983e059907b44633ef3b7e33266c4bf8a9aef1d",
+                    "reference": "2983e059907b44633ef3b7e33266c4bf8a9aef1d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-20T00:15:09+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides starter default content for D324.",
+                "homepage": "https://github.com/t324inc/d324_default_content",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_default_content/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324_default_content/issues"
+                }
+            },
             "dev-8.x-7.x": {
                 "name": "t324inc/d324_default_content",
                 "version": "dev-8.x-7.x",
@@ -1572,6 +2249,57 @@
                 "name": "t324inc/d324_gutenberg",
                 "version": "8.7.1",
                 "version_normalized": "8.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_gutenberg.git",
+                    "reference": "7c4aa80f6c6fcb1f43a688b7fc339eef7715861f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_gutenberg/zipball/7c4aa80f6c6fcb1f43a688b7fc339eef7715861f",
+                    "reference": "7c4aa80f6c6fcb1f43a688b7fc339eef7715861f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-22T19:44:40+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Custom blocks and settings for the Gutenberg editor.",
+                "homepage": "https://github.com/t324inc/d324_gutenberg",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_gutenberg/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324_gutenberg/issues"
+                }
+            },
+            "8.7.2": {
+                "name": "t324inc/d324_gutenberg",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_gutenberg.git",
@@ -1786,6 +2514,129 @@
                     "issues": "https://github.com/t324inc/d324_media/issues"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324_media",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_media.git",
+                    "reference": "72bce5cf136ab55df90a2eba9411e48e8bc9e1d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/72bce5cf136ab55df90a2eba9411e48e8bc9e1d0",
+                    "reference": "72bce5cf136ab55df90a2eba9411e48e8bc9e1d0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/better_exposed_filters": "~3.0",
+                    "drupal/blazy": "~2.0",
+                    "drupal/colorbox": "^1.4",
+                    "drupal/crop": "~2.0",
+                    "drupal/dropzonejs": "~2.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/ds": "~3.0",
+                    "drupal/embed": "~1.0",
+                    "drupal/entity_browser": "2.1",
+                    "drupal/entity_browser_enhanced": "~1.0",
+                    "drupal/entity_embed": "1.0-beta3",
+                    "drupal/focal_point": "1.0",
+                    "drupal/imageapi_optimize": "~2.0",
+                    "drupal/inline_entity_form": "~1.0",
+                    "drupal/media_entity_googledocs": "~4.0",
+                    "drupal/media_entity_instagram": "~2.0",
+                    "drupal/media_entity_twitter": "~2.0",
+                    "drupal/slick": "~2.0",
+                    "drupal/slick_media": "~2.0",
+                    "drupal/slick_views": "~2.0",
+                    "drupal/views_bulk_edit": "~2.0",
+                    "drupal/views_bulk_operations": "~2.0",
+                    "drupal/views_infinite_scroll": "~1.0",
+                    "npm-asset/blazy": "~1.0",
+                    "npm-asset/dropzone": "~4.0",
+                    "npm-asset/slick-carousel": "~1.0",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "vardot/entity_browser_generic_embed": "8.1.x-dev"
+                },
+                "time": "2019-05-23T13:00:45+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "installer-paths": {
+                        "libraries/slick": [
+                            "npm-asset/slick-carousel"
+                        ],
+                        "libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ]
+                    },
+                    "drupal-libraries": {
+                        "libraries": [
+                            {
+                                "name": "dropzone",
+                                "package": "npm-asset/dropzone"
+                            },
+                            {
+                                "name": "blazy",
+                                "package": "npm-asset/blazy"
+                            },
+                            {
+                                "name": "slick",
+                                "package": "npm-asset/slick-carousel"
+                            },
+                            {
+                                "name": "colorbox",
+                                "package": "bower-asset/colorbox"
+                            }
+                        ]
+                    },
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patches": {
+                        "drupal/focal_point": {
+                            "Issue #2916562: Broken image preview": "https://www.drupal.org/files/issues/2019-03-30/2916562-39.patch"
+                        },
+                        "drupal/entity_embed": {
+                            "Issue #2832504: Send the CKEditor instance ID to the embed.preview route.": "https://www.drupal.org/files/issues/2832504-2.patch",
+                            "Issue #2511404: Image entities/fields embedded using Entity Embed cannot be linked in CKEditor": "https://www.drupal.org/files/issues/2018-04-23/25114040-47.patch"
+                        },
+                        "drupal/entity_browser": {
+                            "Issue #2865928: The View widget should filter based on field settings.": "https://www.drupal.org/files/issues/entity-browser-view-context-2865928-14.patch",
+                            "Issue #2877751: Inform users how many items they can add to a field that uses an entity browser.": "https://www.drupal.org/files/issues/2877751-27-8.x-2.x.patch"
+                        },
+                        "drupal/blazy": {
+                            "Issue #3054230: Images added via RTE with caption enabled not displayed": "https://www.drupal.org/files/issues/2019-05-12/3054230-4-caption-compatibility.patch"
+                        }
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Manages type of media contents and entity browsers in the site.",
+                "homepage": "https://github.com/t324inc/d324_media",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_media/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324_media/issues"
+                }
+            },
             "dev-8.x-7.x": {
                 "name": "t324inc/d324_media",
                 "version": "dev-8.x-7.x",
@@ -1995,6 +2846,48 @@
                     "issues": "https://github.com/t324inc/d324theme/issues"
                 }
             },
+            "8.7.2": {
+                "name": "t324inc/d324theme",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324theme.git",
+                    "reference": "e2e144f3dab4d0661b89b6ea37aabc408890aff0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/e2e144f3dab4d0661b89b6ea37aabc408890aff0",
+                    "reference": "e2e144f3dab4d0661b89b6ea37aabc408890aff0",
+                    "shasum": ""
+                },
+                "require": {
+                    "drupal/components": "^1.0"
+                },
+                "time": "2019-05-22T15:31:20+00:00",
+                "type": "drupal-theme",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "A base theme for D324 based on Radix. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
+                "homepage": "https://github.com/t324inc/d324theme",
+                "support": {
+                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324theme/issues"
+                }
+            },
             "dev-8.x-7.x": {
                 "name": "t324inc/d324theme",
                 "version": "dev-8.x-7.x",
@@ -2088,6 +2981,58 @@
                 "homepage": "https://github.com/t324inc/d324theme_admin",
                 "support": {
                     "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.1",
+                    "issues": "https://github.com/t324inc/d324theme_admin/issues"
+                }
+            },
+            "8.7.2": {
+                "name": "t324inc/d324theme_admin",
+                "version": "8.7.2",
+                "version_normalized": "8.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324theme_admin.git",
+                    "reference": "22f30e5eb7f3ffa127e1b038d95878b6db14b7aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324theme_admin/zipball/22f30e5eb7f3ffa127e1b038d95878b6db14b7aa",
+                    "reference": "22f30e5eb7f3ffa127e1b038d95878b6db14b7aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/adminimal_theme": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-20T08:32:43+00:00",
+                "type": "drupal-theme",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "An admin theme based on Adminimal Theme for D324",
+                "homepage": "https://github.com/t324inc/d324theme_admin",
+                "support": {
+                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324theme_admin/issues"
                 }
             },
