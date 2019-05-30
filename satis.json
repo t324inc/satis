@@ -64,6 +64,6 @@
       "url": "https://github.com/t324inc/d324_testimonial"
     }
 	],
-	"require-all": true,
+  "require-all": true,
 	"require-dependencies": false
 }
