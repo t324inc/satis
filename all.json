@@ -2265,6 +2265,59 @@
                 }
             }
         },
+        "t324inc/d324_event": {
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324_event",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_event.git",
+                    "reference": "6d2873b7a7fbd5b1123a909947835d85f0a53aa5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_event/zipball/6d2873b7a7fbd5b1123a909947835d85f0a53aa5",
+                    "reference": "6d2873b7a7fbd5b1123a909947835d85f0a53aa5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-30T07:42:31+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides Event content type and related configuration.",
+                "homepage": "https://github.com/t324inc/d324_event",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_event/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324_event/issues"
+                }
+            }
+        },
         "t324inc/d324_gutenberg": {
             "8.7.1": {
                 "name": "t324inc/d324_gutenberg",
@@ -2778,6 +2831,59 @@
                 "support": {
                     "source": "https://github.com/t324inc/d324_media/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_media/issues"
+                }
+            }
+        },
+        "t324inc/d324_testimonial": {
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324_testimonial",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_testimonial.git",
+                    "reference": "eda312793edb5b3d177099279dc2a93df18adedd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_testimonial/zipball/eda312793edb5b3d177099279dc2a93df18adedd",
+                    "reference": "eda312793edb5b3d177099279dc2a93df18adedd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0"
+                },
+                "time": "2019-05-30T07:42:30+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides Testimonial content type and related configuration.",
+                "homepage": "https://github.com/t324inc/d324_testimonial",
+                "support": {
+                    "source": "https://github.com/t324inc/d324_testimonial/tree/8.x-7.x",
+                    "issues": "https://github.com/t324inc/d324_testimonial/issues"
                 }
             }
         },
