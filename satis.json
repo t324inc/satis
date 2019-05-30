@@ -54,6 +54,14 @@
     {
       "type": "vcs",
       "url": "https://github.com/t324inc/d324_gutenberg"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_event"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_testimonial"
     }
 	],
 	"require-all": true,
