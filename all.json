@@ -281,7 +281,7 @@
                 ],
                 "description": "D324 - T324 Drupal 8 Distribution",
                 "support": {
-                    "source": "https://github.com/t324inc/d324/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324/issues"
                 }
             },
@@ -715,7 +715,7 @@
                 ],
                 "description": "D324 Project Template - An Optimal Drupal 8 Project by T324",
                 "support": {
-                    "source": "https://github.com/t324inc/d324-project/tree/8.x"
+                    "source": "https://github.com/t324inc/d324-project/tree/8.7.2"
                 }
             },
             "8.x-dev": {
@@ -966,7 +966,7 @@
                 ],
                 "description": "A set of scripts and tools that will help you to update to the newer versions of D324.",
                 "support": {
-                    "source": "https://github.com/t324inc/d324-updater/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324-updater/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324-updater/issues"
                 }
             },
@@ -1017,7 +1017,7 @@
                 ],
                 "description": "A set of scripts and tools that will help you to update to the newer versions of D324.",
                 "support": {
-                    "source": "https://github.com/t324inc/d324-updater/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324-updater/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324-updater/issues"
                 }
             }
@@ -1197,7 +1197,7 @@
                 "description": "Provides Blog post content type and related configuration.",
                 "homepage": "https://github.com/t324inc/d324_blog",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_blog/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_blog/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_blog/issues"
                 }
             },
@@ -1258,7 +1258,7 @@
                 "description": "Provides Blog post content type and related configuration.",
                 "homepage": "https://github.com/t324inc/d324_blog",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_blog/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_blog/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_blog/issues"
                 }
             }
@@ -1363,7 +1363,7 @@
                 "description": "Copyright blocks for use in D324 websites.",
                 "homepage": "https://github.com/t324inc/d324_copyright_block",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_copyright_block/issues"
                 }
             },
@@ -1915,7 +1915,7 @@
                 "description": "This is the Core D324 feature. Provides core components required by other features.",
                 "homepage": "https://www.drupal.org/project/d324_core",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_core/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_core/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             },
@@ -2209,7 +2209,7 @@
                 "description": "Provides starter default content for D324.",
                 "homepage": "https://github.com/t324inc/d324_default_content",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_default_content/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_default_content/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_default_content/issues"
                 }
             },
@@ -2260,7 +2260,7 @@
                 "description": "Provides starter default content for D324.",
                 "homepage": "https://github.com/t324inc/d324_default_content",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_default_content/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_default_content/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_default_content/issues"
                 }
             }
@@ -2366,7 +2366,7 @@
                 "description": "Custom blocks and settings for the Gutenberg editor.",
                 "homepage": "https://github.com/t324inc/d324_gutenberg",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_gutenberg/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324_gutenberg/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_gutenberg/issues"
                 }
             },
@@ -2417,7 +2417,7 @@
                 "description": "Custom blocks and settings for the Gutenberg editor.",
                 "homepage": "https://github.com/t324inc/d324_gutenberg",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_gutenberg/tree/8.7.1",
+                    "source": "https://github.com/t324inc/d324_gutenberg/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_gutenberg/issues"
                 }
             },
@@ -2707,7 +2707,7 @@
                 "description": "Manages type of media contents and entity browsers in the site.",
                 "homepage": "https://github.com/t324inc/d324_media",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_media/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324_media/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324_media/issues"
                 }
             },
@@ -3010,7 +3010,7 @@
                 "description": "A base theme for D324 based on Radix. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
                 "homepage": "https://github.com/t324inc/d324theme",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324theme/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324theme/issues"
                 }
             },
@@ -3158,7 +3158,7 @@
                 "description": "An admin theme based on Adminimal Theme for D324",
                 "homepage": "https://github.com/t324inc/d324theme_admin",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.x-7.x",
+                    "source": "https://github.com/t324inc/d324theme_admin/tree/8.7.2",
                     "issues": "https://github.com/t324inc/d324theme_admin/issues"
                 }
             },
