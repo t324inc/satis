@@ -292,12 +292,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "ffb383e9cdcf7e919b0b2fe307d404dc0c73efb5"
+                    "reference": "2f1b2e0234524e1551c19081e4fcb9830f721551"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/ffb383e9cdcf7e919b0b2fe307d404dc0c73efb5",
-                    "reference": "ffb383e9cdcf7e919b0b2fe307d404dc0c73efb5",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/2f1b2e0234524e1551c19081e4fcb9830f721551",
+                    "reference": "2f1b2e0234524e1551c19081e4fcb9830f721551",
                     "shasum": ""
                 },
                 "require": {
@@ -317,7 +317,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-24T08:16:04+00:00",
+                "time": "2019-05-30T06:19:09+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -1374,12 +1374,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_copyright_block.git",
-                    "reference": "9e5d06eb708a5c66dc124f3df19674e687f1c847"
+                    "reference": "500b8434ad746157bc7f4882aeb8670c2e6cf8b9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/9e5d06eb708a5c66dc124f3df19674e687f1c847",
-                    "reference": "9e5d06eb708a5c66dc124f3df19674e687f1c847",
+                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/500b8434ad746157bc7f4882aeb8670c2e6cf8b9",
+                    "reference": "500b8434ad746157bc7f4882aeb8670c2e6cf8b9",
                     "shasum": ""
                 },
                 "require": {
@@ -1389,7 +1389,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_core": "8.7.x-dev"
                 },
-                "time": "2019-05-18T07:50:43+00:00",
+                "time": "2019-05-30T05:13:54+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1926,15 +1926,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "99bedb4710fcb6b1ea902d7d3a18cb03d5ba2854"
+                    "reference": "a8c0914c2af7ab33f90de371adb0f8c023e0c8eb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/99bedb4710fcb6b1ea902d7d3a18cb03d5ba2854",
-                    "reference": "99bedb4710fcb6b1ea902d7d3a18cb03d5ba2854",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/a8c0914c2af7ab33f90de371adb0f8c023e0c8eb",
+                    "reference": "a8c0914c2af7ab33f90de371adb0f8c023e0c8eb",
                     "shasum": ""
                 },
                 "require": {
+                    "bower-asset/colorbox": "^1.6",
+                    "bower-asset/jquery-simple-color": "^1.2",
+                    "bower-asset/spectrum": "^1.8",
                     "composer/installers": "~1.0",
                     "cweagans/composer-patches": "~1.0",
                     "drupal/addtoany": "^1.12",
@@ -1957,6 +1960,7 @@
                     "drupal/config_update": "~1.0",
                     "drupal/content_lock": "~1.0",
                     "drupal/core": "^8.7.2",
+                    "drupal/createandcontinue": "^1.2",
                     "drupal/ctools": "3.2",
                     "drupal/default_content": "1.0-alpha8",
                     "drupal/devel": "*",
@@ -1973,7 +1977,6 @@
                     "drupal/fast_404": "~1.0",
                     "drupal/features": "~3.0",
                     "drupal/field_group": "3.0-beta1",
-                    "drupal/gutenberg": "1.x-dev",
                     "drupal/honeypot": "~1.0",
                     "drupal/inline_entity_form": "~1.0",
                     "drupal/kint": "^2.1",
@@ -1982,6 +1985,7 @@
                     "drupal/libraries": "~3.0",
                     "drupal/libraries_ui": "~1.0",
                     "drupal/link_attributes": "~1.0",
+                    "drupal/linkit": "^4.3",
                     "drupal/login_destination": "~1.0",
                     "drupal/mailsystem": "~4.0",
                     "drupal/masquerade": "~2.0",
@@ -1993,13 +1997,19 @@
                     "drupal/node_edit_protection": "~1.0",
                     "drupal/page_manager": "4.0-beta3",
                     "drupal/panels": "~4.0",
+                    "drupal/paragraphs": "^1.8",
                     "drupal/password_policy": "3.0-alpha4",
+                    "drupal/pathauto": "^1.4",
                     "drupal/rabbit_hole": "~1.0",
                     "drupal/recaptcha": "~2.0",
                     "drupal/redis": "^1.1",
                     "drupal/responsive_preview": "~1.0",
                     "drupal/revision_log_default": "~1.0",
                     "drupal/seo_checklist": "^4.1",
+                    "drupal/simple_sitemap": "^3.1",
+                    "drupal/slick": "~2.0",
+                    "drupal/slick_paragraphs": "^2.0",
+                    "drupal/slick_views": "~2.0",
                     "drupal/smart_trim": "~1.0",
                     "drupal/smtp": "~1.0",
                     "drupal/swiftmailer": "^1.0-beta2",
@@ -2022,7 +2032,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-05-24T08:58:46+00:00",
+                "time": "2019-05-30T06:27:47+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2035,6 +2045,9 @@
                     "enable-patching": true,
                     "composer-exit-on-patch-failure": true,
                     "patches": {
+                        "drupal/core": {
+                            "Issue #3055516: Notice: Undefined index: target_bundles when new reference media field created": "https://www.drupal.org/files/issues/2019-05-18/undefined_index_target_bundles-3055516-4.patch"
+                        },
                         "drupal/redis": {
                             "Issue #2882796 Add support for persistent connections to redis host": "https://www.drupal.org/files/issues/2018-11-13/2882796-persist-connection_0.patch"
                         },
@@ -2068,8 +2081,14 @@
                         "drupal/link_attributes": {
                             "Issue #3050455: Array to string conversion in Drupal\\Core\\Template\\AttributeArray->__toString()": "https://www.drupal.org/files/issues/2019-04-24/3050455-2.link_attributes.Array-to-string-conversion-in-DrupalCoreTemplateAttributeArraytoString.patch"
                         },
-                        "drupal/core": {
-                            "Issue #3055516: Notice: Undefined index: target_bundles when new reference media field created": "https://www.drupal.org/files/issues/2019-05-18/undefined_index_target_bundles-3055516-4.patch"
+                        "drupal/media_bulk_upload": {
+                            "Issue #3033271 Undefined index": "https://www.drupal.org/files/issues/2019-05-17/3033271-4.media_bulk_upload.Undefined-index-fileextensions-in-DrupalmediabulkuploadMediaTypeManagergetTargetFieldExtensions.patch"
+                        },
+                        "drupal/paragraphs": {
+                            "Issue #3013171 LogicException Form errors cannot be set after form validation has finished": "https://www.drupal.org/files/issues/2019-05-03/3013171-13.patch"
+                        },
+                        "drupal/color_field": {
+                            "Issue #3002836 No functionality of the Spectrum widget on Drupal 8.6.x with latest stable or dev": "https://www.drupal.org/files/issues/2018-11-07/no_functionality_of_almost_all_widgets-3002836-7.patch"
                         }
                     }
                 },
@@ -2646,12 +2665,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "72bce5cf136ab55df90a2eba9411e48e8bc9e1d0"
+                    "reference": "2a5cfa79ed3e905a351a096dd149b520fd3b18ae"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/72bce5cf136ab55df90a2eba9411e48e8bc9e1d0",
-                    "reference": "72bce5cf136ab55df90a2eba9411e48e8bc9e1d0",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/2a5cfa79ed3e905a351a096dd149b520fd3b18ae",
+                    "reference": "2a5cfa79ed3e905a351a096dd149b520fd3b18ae",
                     "shasum": ""
                 },
                 "require": {
@@ -2671,12 +2690,11 @@
                     "drupal/focal_point": "1.0",
                     "drupal/imageapi_optimize": "~2.0",
                     "drupal/inline_entity_form": "~1.0",
+                    "drupal/media_bulk_upload": "^1.0@alpha",
                     "drupal/media_entity_googledocs": "~4.0",
                     "drupal/media_entity_instagram": "~2.0",
                     "drupal/media_entity_twitter": "~2.0",
-                    "drupal/slick": "~2.0",
                     "drupal/slick_media": "~2.0",
-                    "drupal/slick_views": "~2.0",
                     "drupal/views_bulk_edit": "~2.0",
                     "drupal/views_bulk_operations": "~2.0",
                     "drupal/views_infinite_scroll": "~1.0",
@@ -2686,7 +2704,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-05-23T13:00:45+00:00",
+                "time": "2019-05-30T05:11:42+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2897,18 +2915,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "0fbb323c7a52a8d8422feb03c870c0e991bdeb7d"
+                    "reference": "5ec9740a6588ceb7fd9c39e3fe4cbd27a65dc807"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/0fbb323c7a52a8d8422feb03c870c0e991bdeb7d",
-                    "reference": "0fbb323c7a52a8d8422feb03c870c0e991bdeb7d",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/5ec9740a6588ceb7fd9c39e3fe4cbd27a65dc807",
+                    "reference": "5ec9740a6588ceb7fd9c39e3fe4cbd27a65dc807",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-05-30T02:24:23+00:00",
+                "time": "2019-05-30T05:02:09+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
