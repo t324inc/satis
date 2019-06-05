@@ -292,12 +292,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "2f1b2e0234524e1551c19081e4fcb9830f721551"
+                    "reference": "5cc4634e8032de80b8323f44d345ea1acc1282b4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/2f1b2e0234524e1551c19081e4fcb9830f721551",
-                    "reference": "2f1b2e0234524e1551c19081e4fcb9830f721551",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/5cc4634e8032de80b8323f44d345ea1acc1282b4",
+                    "reference": "5cc4634e8032de80b8323f44d345ea1acc1282b4",
                     "shasum": ""
                 },
                 "require": {
@@ -317,7 +317,7 @@
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-05-30T06:19:09+00:00",
+                "time": "2019-06-05T04:47:05+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -3021,18 +3021,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "72ce962194759e2cdd8195d3c0ae7e7faf20cda5"
+                    "reference": "fb5907e56ba9126d5127c2d0e654af073988ea0a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/72ce962194759e2cdd8195d3c0ae7e7faf20cda5",
-                    "reference": "72ce962194759e2cdd8195d3c0ae7e7faf20cda5",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/fb5907e56ba9126d5127c2d0e654af073988ea0a",
+                    "reference": "fb5907e56ba9126d5127c2d0e654af073988ea0a",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-06-05T02:00:38+00:00",
+                "time": "2019-06-05T03:25:05+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
