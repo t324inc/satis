@@ -3021,18 +3021,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "28d238a7c65ece7289c090eafa1c55aa0d34f940"
+                    "reference": "72ce962194759e2cdd8195d3c0ae7e7faf20cda5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/28d238a7c65ece7289c090eafa1c55aa0d34f940",
-                    "reference": "28d238a7c65ece7289c090eafa1c55aa0d34f940",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/72ce962194759e2cdd8195d3c0ae7e7faf20cda5",
+                    "reference": "72ce962194759e2cdd8195d3c0ae7e7faf20cda5",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-05-30T09:00:57+00:00",
+                "time": "2019-06-05T02:00:38+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
