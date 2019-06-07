@@ -2383,12 +2383,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "3df9994245d0f638dc043a71802c4955840595a7"
+                    "reference": "e387f862d8fa6d2f1fdeadf7347f0ecb03c3408f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/3df9994245d0f638dc043a71802c4955840595a7",
-                    "reference": "3df9994245d0f638dc043a71802c4955840595a7",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/e387f862d8fa6d2f1fdeadf7347f0ecb03c3408f",
+                    "reference": "e387f862d8fa6d2f1fdeadf7347f0ecb03c3408f",
                     "shasum": ""
                 },
                 "require": {
@@ -2491,7 +2491,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-06-07T15:32:08+00:00",
+                "time": "2019-06-07T15:36:17+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2522,8 +2522,7 @@
                             "Issue #2920868: Fix fatal errors when we have missing layouts, on an update": "https://www.drupal.org/files/issues/2019-03-03/2920868-12.patch"
                         },
                         "drupal/page_manager": {
-                            "Issue #2665328: Variants take entity label not the variant title": "https://www.drupal.org/files/issues/2018-12-12/2665328-variants-take-entity-label-87.patch",
-                            "Issue #3033057: Page Manager currently not working with CTools 3.1": "https://www.drupal.org/files/issues/2019-02-26/3033057-ctools31-15.patch"
+                            "Issue #2665328: Variants take entity label not the variant title": "https://www.drupal.org/files/issues/2018-12-12/2665328-variants-take-entity-label-87.patch"
                         },
                         "drupal/update_helper": {
                             "Issue #3024165: [PATCH] Enhancements, Better messages for the unable to apply updates, drush command and removed the Mark all updates as successful on install": "https://www.drupal.org/files/issues/2019-05-08/3024165-25.patch"
