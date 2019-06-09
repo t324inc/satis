@@ -2575,12 +2575,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "7b0a8f0b9cd24851d50fbed1c01a6d5180f9291b"
+                    "reference": "c7ddf35f42314938963e26cf57e0ac5b5873c252"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/7b0a8f0b9cd24851d50fbed1c01a6d5180f9291b",
-                    "reference": "7b0a8f0b9cd24851d50fbed1c01a6d5180f9291b",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/c7ddf35f42314938963e26cf57e0ac5b5873c252",
+                    "reference": "c7ddf35f42314938963e26cf57e0ac5b5873c252",
                     "shasum": ""
                 },
                 "require": {
@@ -2683,7 +2683,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-06-07T15:49:53+00:00",
+                "time": "2019-06-09T19:56:53+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2733,7 +2733,8 @@
                             "Issue #3033271 Undefined index": "https://www.drupal.org/files/issues/2019-05-17/3033271-4.media_bulk_upload.Undefined-index-fileextensions-in-DrupalmediabulkuploadMediaTypeManagergetTargetFieldExtensions.patch"
                         },
                         "drupal/paragraphs": {
-                            "Issue #3013171 LogicException Form errors cannot be set after form validation has finished": "https://www.drupal.org/files/issues/2019-05-03/3013171-13.patch"
+                            "Issue #3013171 LogicException Form errors cannot be set after form validation has finished": "https://www.drupal.org/files/issues/2019-05-03/3013171-13.patch",
+                            "Issue #2907094 Make paragraphs module working with field_group version 3.x with support for the field_layout module": "https://www.drupal.org/files/issues/2019-06-06/2907094_39.patch"
                         },
                         "drupal/color_field": {
                             "Issue #3002836 No functionality of the Spectrum widget on Drupal 8.6.x with latest stable or dev": "https://www.drupal.org/files/issues/2018-11-07/no_functionality_of_almost_all_widgets-3002836-7.patch"
@@ -2756,7 +2757,7 @@
                 "description": "This is the Core D324 feature. Provides core components required by other features.",
                 "homepage": "https://www.drupal.org/project/d324_core",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_core/tree/8.7.3",
+                    "source": "https://github.com/t324inc/d324_core/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_core/issues"
                 }
             }
@@ -3989,18 +3990,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "4ca28b5bef5de52cf16cc9bbb07aa9e45afcf0a1"
+                    "reference": "f7eb432619b5f01d29f104be49d36d5375f1e40d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/4ca28b5bef5de52cf16cc9bbb07aa9e45afcf0a1",
-                    "reference": "4ca28b5bef5de52cf16cc9bbb07aa9e45afcf0a1",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/f7eb432619b5f01d29f104be49d36d5375f1e40d",
+                    "reference": "f7eb432619b5f01d29f104be49d36d5375f1e40d",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-06-07T15:05:31+00:00",
+                "time": "2019-06-09T19:21:15+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
@@ -4020,7 +4021,7 @@
                 "description": "A base theme for D324 based on Radix. It has Bootstrap, Sass, BrowserSync and Font Awesome built-in.",
                 "homepage": "https://github.com/t324inc/d324theme",
                 "support": {
-                    "source": "https://github.com/t324inc/d324theme/tree/8.7.3",
+                    "source": "https://github.com/t324inc/d324theme/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324theme/issues"
                 }
             }
