@@ -3595,12 +3595,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "4f0730ad7c363c02a1c71ba6741714fa1a6ec498"
+                    "reference": "c34f0d7e6066bc91544e7db24e86a8ff0101770d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/4f0730ad7c363c02a1c71ba6741714fa1a6ec498",
-                    "reference": "4f0730ad7c363c02a1c71ba6741714fa1a6ec498",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/c34f0d7e6066bc91544e7db24e86a8ff0101770d",
+                    "reference": "c34f0d7e6066bc91544e7db24e86a8ff0101770d",
                     "shasum": ""
                 },
                 "require": {
@@ -3617,6 +3617,7 @@
                     "drupal/entity_browser": "2.1",
                     "drupal/entity_browser_enhanced": "~1.0",
                     "drupal/entity_embed": "1.0-beta3",
+                    "drupal/fitvids": "^1.0",
                     "drupal/focal_point": "1.0",
                     "drupal/imageapi_optimize": "~2.0",
                     "drupal/inline_entity_form": "~1.0",
@@ -3634,7 +3635,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-06-07T14:39:39+00:00",
+                "time": "2019-06-10T00:24:22+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3706,7 +3707,7 @@
                 "description": "Manages type of media contents and entity browsers in the site.",
                 "homepage": "https://github.com/t324inc/d324_media",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_media/tree/8.7.3",
+                    "source": "https://github.com/t324inc/d324_media/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_media/issues"
                 }
             }
