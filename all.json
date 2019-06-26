@@ -1158,6 +1158,154 @@
                 "support": {
                     "source": "https://github.com/t324inc/d324-project/tree/8.7.3"
                 }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/d324-project",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324-project.git",
+                    "reference": "5422600e4d8773b8a0fedcb3fc412bfc8237b260"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/5422600e4d8773b8a0fedcb3fc412bfc8237b260",
+                    "reference": "5422600e4d8773b8a0fedcb3fc412bfc8237b260",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.2",
+                    "cweagans/composer-patches": "^1.6.5",
+                    "drupal-composer/drupal-scaffold": "^2.5",
+                    "drupal/console": "^1.0.2",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drush/drush": "^9.0.0",
+                    "oomphinc/composer-installers-extender": "^1.1.2",
+                    "php": ">=7.2",
+                    "t324inc/d324": "8.7.x-dev",
+                    "t324inc/d324-updater": "8.7.x-dev",
+                    "vlucas/phpdotenv": "^3.3",
+                    "webflo/drupal-finder": "^1.0.0",
+                    "webmozart/path-util": "^2.3",
+                    "zaporylie/composer-drupal-optimizations": "^1.1"
+                },
+                "conflict": {
+                    "drupal/drupal": "*"
+                },
+                "time": "2019-06-26T13:19:05+00:00",
+                "type": "project",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x": "8.x-dev"
+                    },
+                    "installer-types": [
+                        "npm-asset",
+                        "bower-asset"
+                    ],
+                    "installer-paths": {
+                        "web/core": [
+                            "type:drupal-core"
+                        ],
+                        "web/profiles/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "web/themes/d324/{$name}": [
+                            "t324inc/d324theme",
+                            "t324inc/d324theme_admin"
+                        ],
+                        "web/modules/d324/{$name}": [
+                            "vendor:t324inc"
+                        ],
+                        "web/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "web/modules/custom/{$name}": [
+                            "type:custom-drupal-module"
+                        ],
+                        "web/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "web/themes/custom/{$name}": [
+                            "type:custom-drupal-theme"
+                        ],
+                        "web/libraries/slick": [
+                            "npm-asset/slick-carousel"
+                        ],
+                        "web/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:npm-asset",
+                            "type:bower-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "drupal-libraries": {
+                        "library-directory": "web/libraries",
+                        "libraries": [
+                            {
+                                "name": "dropzone",
+                                "package": "npm-asset/dropzone"
+                            },
+                            {
+                                "name": "blazy",
+                                "package": "npm-asset/blazy"
+                            },
+                            {
+                                "name": "slick",
+                                "package": "npm-asset/slick-carousel"
+                            }
+                        ]
+                    },
+                    "drupal-scaffold": {
+                        "initial": {
+                            ".editorconfig": "../.editorconfig",
+                            ".gitattributes": "../.gitattributes"
+                        }
+                    },
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true,
+                    "patchLevel": {
+                        "drupal/core": "-p2"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "load.environment.php"
+                    ]
+                },
+                "scripts": {
+                    "drupal-scaffold": [
+                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+                    ],
+                    "post-install-cmd": [
+                        "D324\\composer\\ScriptHandler::createRequiredFiles",
+                        "D324\\composer\\ScriptHandler::removeGitDirectories",
+                        "@composer drupal-scaffold"
+                    ],
+                    "post-update-cmd": [
+                        "D324\\composer\\ScriptHandler::createRequiredFiles",
+                        "D324\\composer\\ScriptHandler::removeGitDirectories"
+                    ],
+                    "post-drupal-scaffold-cmd": [
+                        "D324\\composer\\ScriptHandler::postDrupalScaffoldProcedure"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "D324 Project Template - An Optimal Drupal 8 Project by T324",
+                "support": {
+                    "source": "https://github.com/t324inc/d324-project/tree/8.x-7.x"
+                }
             }
         },
         "t324inc/d324-updater": {
