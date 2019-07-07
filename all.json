@@ -437,12 +437,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324.git",
-                    "reference": "bc6dac13c294498e0e00a42a9e42c334e2f28c61"
+                    "reference": "38998a4e9495cb1d1776b7715ce60a61edd0a8c4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324/zipball/bc6dac13c294498e0e00a42a9e42c334e2f28c61",
-                    "reference": "bc6dac13c294498e0e00a42a9e42c334e2f28c61",
+                    "url": "https://api.github.com/repos/t324inc/d324/zipball/38998a4e9495cb1d1776b7715ce60a61edd0a8c4",
+                    "reference": "38998a4e9495cb1d1776b7715ce60a61edd0a8c4",
                     "shasum": ""
                 },
                 "require": {
@@ -457,12 +457,13 @@
                     "t324inc/d324_default_content": "8.7.x-dev",
                     "t324inc/d324_media": "8.7.x-dev",
                     "t324inc/d324theme": "8.7.x-dev",
-                    "t324inc/d324theme_admin": "8.7.x-dev"
+                    "t324inc/d324theme_admin": "8.7.x-dev",
+                    "t324inc/geysir": "8.7.x-dev"
                 },
                 "require-dev": {
                     "phing/phing": "~2.0"
                 },
-                "time": "2019-06-26T13:14:54+00:00",
+                "time": "2019-07-07T16:52:10+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -2723,12 +2724,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "2956184357638a7e890a42305ea6a6d8d2baffe5"
+                    "reference": "30a21c387fbdbd779409f5d694613400c7054bc3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/2956184357638a7e890a42305ea6a6d8d2baffe5",
-                    "reference": "2956184357638a7e890a42305ea6a6d8d2baffe5",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/30a21c387fbdbd779409f5d694613400c7054bc3",
+                    "reference": "30a21c387fbdbd779409f5d694613400c7054bc3",
                     "shasum": ""
                 },
                 "require": {
@@ -2833,7 +2834,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-06-10T04:54:38+00:00",
+                "time": "2019-07-07T16:50:07+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2884,7 +2885,8 @@
                         },
                         "drupal/paragraphs": {
                             "Issue #3013171 LogicException Form errors cannot be set after form validation has finished": "https://www.drupal.org/files/issues/2019-05-03/3013171-13.patch",
-                            "Issue #2907094 Make paragraphs module working with field_group version 3.x with support for the field_layout module": "https://www.drupal.org/files/issues/2019-06-06/2907094_39.patch"
+                            "Issue #2907094 Make paragraphs module working with field_group version 3.x with support for the field_layout module": "https://www.drupal.org/files/issues/2019-06-06/2907094_39.patch",
+                            "Issue #3025709 Create new revision option is ignored when updating EntityReferenceRevisionsItem": "https://www.drupal.org/files/issues/2019-06-27/3025709-30.patch"
                         },
                         "drupal/color_field": {
                             "Issue #3002836 No functionality of the Spectrum widget on Drupal 8.6.x with latest stable or dev": "https://www.drupal.org/files/issues/2018-11-07/no_functionality_of_almost_all_widgets-3002836-7.patch"
@@ -4140,18 +4142,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "56a6fb0037cae2610c36f93149cef6ee3624734a"
+                    "reference": "ad3f1a2297778e3e0c052acda5aca316216adcdb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/56a6fb0037cae2610c36f93149cef6ee3624734a",
-                    "reference": "56a6fb0037cae2610c36f93149cef6ee3624734a",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/ad3f1a2297778e3e0c052acda5aca316216adcdb",
+                    "reference": "ad3f1a2297778e3e0c052acda5aca316216adcdb",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-06-26T18:52:40+00:00",
+                "time": "2019-07-07T16:54:06+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
