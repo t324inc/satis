@@ -4385,6 +4385,112 @@
                     "issues": "https://github.com/t324inc/d324theme_admin/issues"
                 }
             }
+        },
+        "t324inc/geysir": {
+            "8.7.3": {
+                "name": "t324inc/geysir",
+                "version": "8.7.3",
+                "version_normalized": "8.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/geysir.git",
+                    "reference": "ae52a508bf2df874017cf9599d771696a17f66e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/geysir/zipball/ae52a508bf2df874017cf9599d771696a17f66e0",
+                    "reference": "ae52a508bf2df874017cf9599d771696a17f66e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-07-07T16:17:25+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides Blog post content type and related configuration.",
+                "homepage": "https://github.com/t324inc/geysir",
+                "support": {
+                    "source": "https://github.com/t324inc/geysir/tree/8.7.3",
+                    "issues": "https://github.com/t324inc/geysir/issues"
+                }
+            },
+            "dev-8.x-7.x": {
+                "name": "t324inc/geysir",
+                "version": "dev-8.x-7.x",
+                "version_normalized": "dev-8.x-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/geysir.git",
+                    "reference": "ae52a508bf2df874017cf9599d771696a17f66e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/geysir/zipball/ae52a508bf2df874017cf9599d771696a17f66e0",
+                    "reference": "ae52a508bf2df874017cf9599d771696a17f66e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-07-07T16:17:25+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides Blog post content type and related configuration.",
+                "homepage": "https://github.com/t324inc/geysir",
+                "support": {
+                    "source": "https://github.com/t324inc/geysir/tree/8.7.3",
+                    "issues": "https://github.com/t324inc/geysir/issues"
+                }
+            }
         }
     }
 }
