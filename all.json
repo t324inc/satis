@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "8ac41e238573865835e373968d522cadd191557f"
+                    "reference": "cd98a4c62a31e69b74d45b766bf464c30e7914f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/8ac41e238573865835e373968d522cadd191557f",
-                    "reference": "8ac41e238573865835e373968d522cadd191557f",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/cd98a4c62a31e69b74d45b766bf464c30e7914f9",
+                    "reference": "cd98a4c62a31e69b74d45b766bf464c30e7914f9",
                     "shasum": ""
                 },
                 "require": {
@@ -2836,7 +2836,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-07T22:20:10+00:00",
+                "time": "2019-07-07T22:25:25+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2853,7 +2853,7 @@
                         "drupal/core": {
                             "Issue #3055516: Notice: Undefined index: target_bundles when new reference media field created": "https://www.drupal.org/files/issues/2019-05-18/undefined_index_target_bundles-3055516-4.patch",
                             "Issue #2890758 Block visibility node type not working in preview mode": "https://www.drupal.org/files/issues/2018-06-06/block_visibility_node_type_not_working_in_preview_mode-2890758-24.patch",
-                            "Issue #2730631 Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2018-12-03/node_revision_route_object-2730631-D8-77.patch"
+                            "Issue #2730631 Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch"
                         },
                         "drupal/redis": {
                             "Issue #2882796 Add support for persistent connections to redis host": "https://www.drupal.org/files/issues/2018-11-13/2882796-persist-connection_0.patch"
