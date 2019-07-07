@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "9e4a2ed06cfc9a58ccb74bb18c8baa0e7f3e12bb"
+                    "reference": "3a73d4ca081a1cde3179a484e1acf78e64f19c87"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/9e4a2ed06cfc9a58ccb74bb18c8baa0e7f3e12bb",
-                    "reference": "9e4a2ed06cfc9a58ccb74bb18c8baa0e7f3e12bb",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/3a73d4ca081a1cde3179a484e1acf78e64f19c87",
+                    "reference": "3a73d4ca081a1cde3179a484e1acf78e64f19c87",
                     "shasum": ""
                 },
                 "require": {
@@ -2749,7 +2749,6 @@
                     "drupal/bootstrap_layouts": "~5.0",
                     "drupal/captcha": "~1.0",
                     "drupal/checklistapi": "~1.0",
-                    "drupal/coffee": "1.0-beta2",
                     "drupal/color_field": "~2.0",
                     "drupal/components": "^1.1",
                     "drupal/config_filter": "~1.0",
@@ -2837,7 +2836,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-07T18:47:08+00:00",
+                "time": "2019-07-07T18:52:10+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2856,10 +2855,6 @@
                         },
                         "drupal/redis": {
                             "Issue #2882796 Add support for persistent connections to redis host": "https://www.drupal.org/files/issues/2018-11-13/2882796-persist-connection_0.patch"
-                        },
-                        "drupal/coffee": {
-                            "Issue #2815381: Coffee breaks whole page when using right to left (rtl) languages in drupal 8": "https://www.drupal.org/files/issues/coffee-coffee_breaks_page_with_rtl-2815381-6.patch",
-                            "Issue #2872093: Coffee css fixes in RTL": "https://www.drupal.org/files/issues/2872093-10.patch"
                         },
                         "drupal/default_content": {
                             "Issue #2900089: Invalid translation language error when selected installation language does not match demo content language": "https://www.drupal.org/files/issues/2900089-14.patch",
