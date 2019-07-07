@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "7bd1f72b0caf759b951657e515c2682f3dfc3d3b"
+                    "reference": "9e4a2ed06cfc9a58ccb74bb18c8baa0e7f3e12bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/7bd1f72b0caf759b951657e515c2682f3dfc3d3b",
-                    "reference": "7bd1f72b0caf759b951657e515c2682f3dfc3d3b",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/9e4a2ed06cfc9a58ccb74bb18c8baa0e7f3e12bb",
+                    "reference": "9e4a2ed06cfc9a58ccb74bb18c8baa0e7f3e12bb",
                     "shasum": ""
                 },
                 "require": {
@@ -2796,6 +2796,7 @@
                     "drupal/menu_position": "~1.0",
                     "drupal/menu_trail_by_path": "^1.0",
                     "drupal/metatag": "^1.8",
+                    "drupal/moderation_sidebar": "^1.1",
                     "drupal/node_edit_protection": "~1.0",
                     "drupal/page_manager": "4.0-beta4",
                     "drupal/panels": "~4.0",
@@ -2836,7 +2837,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-07T17:30:41+00:00",
+                "time": "2019-07-07T18:47:08+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
