@@ -62,6 +62,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/t324inc/d324_testimonial"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/geysir"
     }
 	],
 	"require-all": true,
