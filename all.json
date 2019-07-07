@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "373a3802193f6ad1868288c02084dbd36c9d2537"
+                    "reference": "3bf49320dbbda9f69a46e7ad43033ac24ec69cdc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/373a3802193f6ad1868288c02084dbd36c9d2537",
-                    "reference": "373a3802193f6ad1868288c02084dbd36c9d2537",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/3bf49320dbbda9f69a46e7ad43033ac24ec69cdc",
+                    "reference": "3bf49320dbbda9f69a46e7ad43033ac24ec69cdc",
                     "shasum": ""
                 },
                 "require": {
@@ -2836,7 +2836,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-07T21:33:44+00:00",
+                "time": "2019-07-07T21:39:24+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -4449,12 +4449,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/geysir.git",
-                    "reference": "ae52a508bf2df874017cf9599d771696a17f66e0"
+                    "reference": "ae0646d2e262fd73d55508ac6838c15ac6fe0192"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/geysir/zipball/ae52a508bf2df874017cf9599d771696a17f66e0",
-                    "reference": "ae52a508bf2df874017cf9599d771696a17f66e0",
+                    "url": "https://api.github.com/repos/t324inc/geysir/zipball/ae0646d2e262fd73d55508ac6838c15ac6fe0192",
+                    "reference": "ae0646d2e262fd73d55508ac6838c15ac6fe0192",
                     "shasum": ""
                 },
                 "require": {
@@ -4464,7 +4464,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_core": "8.7.x-dev"
                 },
-                "time": "2019-07-07T16:17:25+00:00",
+                "time": "2019-07-07T21:40:41+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -4490,7 +4490,7 @@
                 "description": "Provides Blog post content type and related configuration.",
                 "homepage": "https://github.com/t324inc/geysir",
                 "support": {
-                    "source": "https://github.com/t324inc/geysir/tree/8.7.3",
+                    "source": "https://github.com/t324inc/geysir/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/geysir/issues"
                 }
             }
