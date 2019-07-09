@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "e7b013de0bcb5ea162fa0d9124001402babd5ef1"
+                    "reference": "aaf7dec6162cf507fcb14ae002e7dd258265d4ea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/e7b013de0bcb5ea162fa0d9124001402babd5ef1",
-                    "reference": "e7b013de0bcb5ea162fa0d9124001402babd5ef1",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/aaf7dec6162cf507fcb14ae002e7dd258265d4ea",
+                    "reference": "aaf7dec6162cf507fcb14ae002e7dd258265d4ea",
                     "shasum": ""
                 },
                 "require": {
@@ -2826,7 +2826,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-09T11:16:29+00:00",
+                "time": "2019-07-09T11:25:37+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
