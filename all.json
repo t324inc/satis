@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "f4977b8b61557b5964c65a3a295b78ca011e5556"
+                    "reference": "e7b013de0bcb5ea162fa0d9124001402babd5ef1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/f4977b8b61557b5964c65a3a295b78ca011e5556",
-                    "reference": "f4977b8b61557b5964c65a3a295b78ca011e5556",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/e7b013de0bcb5ea162fa0d9124001402babd5ef1",
+                    "reference": "e7b013de0bcb5ea162fa0d9124001402babd5ef1",
                     "shasum": ""
                 },
                 "require": {
@@ -2747,7 +2747,6 @@
                     "drupal/better_exposed_filters": "~3.0",
                     "drupal/betterlogin": "1.x-dev",
                     "drupal/block_class": "~1.0",
-                    "drupal/bootstrap_layouts": "~5.0",
                     "drupal/captcha": "~1.0",
                     "drupal/checklistapi": "~1.0",
                     "drupal/color_field": "~2.0",
@@ -2755,7 +2754,6 @@
                     "drupal/config_filter": "~1.0",
                     "drupal/config_ignore": "~2.0",
                     "drupal/config_update": "~1.0",
-                    "drupal/content_lock": "~1.0",
                     "drupal/core": "^8.7.3",
                     "drupal/createandcontinue": "^1.2",
                     "drupal/ctools": "3.2",
@@ -2781,16 +2779,12 @@
                     "drupal/honeypot": "~1.0",
                     "drupal/inline_entity_form": "~1.0",
                     "drupal/kint": "^2.1",
-                    "drupal/layout_builder_restrictions": "~1.0",
-                    "drupal/length_indicator": "1.0-rc3",
                     "drupal/libraries": "~3.0",
                     "drupal/libraries_ui": "~1.0",
                     "drupal/link_attributes": "~1.0",
                     "drupal/linkit": "^4.3",
-                    "drupal/login_destination": "~1.0",
                     "drupal/mailsystem": "~4.0",
                     "drupal/masquerade": "~2.0",
-                    "drupal/maxlength": "~1.0",
                     "drupal/menu_admin_per_menu": "~1.0",
                     "drupal/menu_block": "~1.0",
                     "drupal/menu_position": "~1.0",
@@ -2801,7 +2795,6 @@
                     "drupal/page_manager": "4.0-beta4",
                     "drupal/panels": "~4.0",
                     "drupal/paragraphs": "1.x-dev",
-                    "drupal/password_policy": "3.0-alpha4",
                     "drupal/pathauto": "^1.4",
                     "drupal/rabbit_hole": "~1.0",
                     "drupal/recaptcha": "~2.0",
@@ -2809,7 +2802,6 @@
                     "drupal/redis": "^1.1",
                     "drupal/responsive_preview": "~1.0",
                     "drupal/revision_log_default": "~1.0",
-                    "drupal/seo_checklist": "^4.1",
                     "drupal/simple_sitemap": "^3.1",
                     "drupal/slick": "~2.0",
                     "drupal/slick_paragraphs": "^2.0",
@@ -2820,12 +2812,9 @@
                     "drupal/swiftmailer": "^1.0-beta2",
                     "drupal/taxonomy_access_fix": "~2.0",
                     "drupal/token": "~1.0",
-                    "drupal/tour_builder": "~1.0",
                     "drupal/tour_ui": "~1.0",
                     "drupal/ultimate_cron": "~2.0",
                     "drupal/update_helper": "1.0",
-                    "drupal/username_enumeration_prevention": "~1.0",
-                    "drupal/views_bootstrap": "~3.0",
                     "drupal/views_bulk_edit": "~2.0",
                     "drupal/views_bulk_operations": "~2.0",
                     "drupal/views_infinite_scroll": "~1.0",
@@ -2837,7 +2826,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-08T12:59:21+00:00",
+                "time": "2019-07-09T11:16:29+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2871,12 +2860,6 @@
                         },
                         "drupal/update_helper": {
                             "Issue #3024165: [PATCH] Enhancements, Better messages for the unable to apply updates, drush command and removed the Mark all updates as successful on install": "https://www.drupal.org/files/issues/2019-05-08/3024165-25.patch"
-                        },
-                        "drupal/length_indicator": {
-                            "Issue #3048286: Add cursor position direction support for RTL": "https://www.drupal.org/files/issues/2019-04-15/3048286-3.patch"
-                        },
-                        "drupal/password_policy": {
-                            "Issue #3032549: Fix Password policy module issue with saving constraint": "https://www.drupal.org/files/issues/2019-04-28/3032549-18.patch"
                         },
                         "drupal/link_attributes": {
                             "Issue #3050455: Array to string conversion in Drupal\\Core\\Template\\AttributeArray->__toString()": "https://www.drupal.org/files/issues/2019-04-24/3050455-2.link_attributes.Array-to-string-conversion-in-DrupalCoreTemplateAttributeArraytoString.patch"
@@ -4145,18 +4128,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "8ef6a3b8bb2bd6c1ed9416ed4e0dba4fd722af6b"
+                    "reference": "c3f3efdcfe9967ed3459659d834a0e6339bc76c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/8ef6a3b8bb2bd6c1ed9416ed4e0dba4fd722af6b",
-                    "reference": "8ef6a3b8bb2bd6c1ed9416ed4e0dba4fd722af6b",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/c3f3efdcfe9967ed3459659d834a0e6339bc76c2",
+                    "reference": "c3f3efdcfe9967ed3459659d834a0e6339bc76c2",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-07-08T12:12:16+00:00",
+                "time": "2019-07-09T10:29:36+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
@@ -4451,12 +4434,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/geysir.git",
-                    "reference": "26ff12a5491a1a5481e247f002737729a93ae3f8"
+                    "reference": "2af21ebd78feed69aeaf991ccc943f8bf823738d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/geysir/zipball/26ff12a5491a1a5481e247f002737729a93ae3f8",
-                    "reference": "26ff12a5491a1a5481e247f002737729a93ae3f8",
+                    "url": "https://api.github.com/repos/t324inc/geysir/zipball/2af21ebd78feed69aeaf991ccc943f8bf823738d",
+                    "reference": "2af21ebd78feed69aeaf991ccc943f8bf823738d",
                     "shasum": ""
                 },
                 "require": {
@@ -4466,7 +4449,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_core": "8.7.x-dev"
                 },
-                "time": "2019-07-08T12:11:17+00:00",
+                "time": "2019-07-09T10:47:35+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
