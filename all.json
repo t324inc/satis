@@ -3733,19 +3733,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "9c8b0126d24d3f48fc0073dbb1b1b6c34f4545af"
+                    "reference": "04f1de78b5e197699e65184ea23aca64c81e785a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/9c8b0126d24d3f48fc0073dbb1b1b6c34f4545af",
-                    "reference": "9c8b0126d24d3f48fc0073dbb1b1b6c34f4545af",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/04f1de78b5e197699e65184ea23aca64c81e785a",
+                    "reference": "04f1de78b5e197699e65184ea23aca64c81e785a",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "cweagans/composer-patches": "~1.0",
                     "drupal/better_exposed_filters": "~3.0",
-                    "drupal/blazy": "~2.0",
+                    "drupal/blazy": "2.x-dev",
                     "drupal/colorbox": "^1.4",
                     "drupal/crop": "~2.0",
                     "drupal/dropzonejs": "~2.0",
@@ -3771,7 +3771,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-07-09T18:52:52+00:00",
+                "time": "2019-07-09T20:08:46+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
