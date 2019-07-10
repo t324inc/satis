@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "e826b1074eece1273d65eefaccf5a9e0cd105159"
+                    "reference": "761b10d21733e004ee2850103db235c3399f9e7c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/e826b1074eece1273d65eefaccf5a9e0cd105159",
-                    "reference": "e826b1074eece1273d65eefaccf5a9e0cd105159",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/761b10d21733e004ee2850103db235c3399f9e7c",
+                    "reference": "761b10d21733e004ee2850103db235c3399f9e7c",
                     "shasum": ""
                 },
                 "require": {
@@ -2827,7 +2827,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-09T18:52:53+00:00",
+                "time": "2019-07-10T10:11:15+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2880,6 +2880,9 @@
                         },
                         "drupal/menu_trail_by_path": {
                             "Issue #2914746 Fatal error after installing module": "https://www.drupal.org/files/issues/2019-05-14/menu_trail_by_path-fatal_error_on_menu_active_trail_service_override-2914746-13.patch"
+                        },
+                        "drupal/field_group": {
+                            "Issue #2986704 Incompatibility with inline entity form": "https://www.drupal.org/files/issues/2018-10-30/field_group-inline_entity_form_compatibility-2986704-3.patch"
                         }
                     }
                 },
