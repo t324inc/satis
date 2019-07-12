@@ -2723,12 +2723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "9b80cd1a8a1c903f53b30355f397e8a065901f5c"
+                    "reference": "065ba96469d3cfef477b37d1a3228940df91abb1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/9b80cd1a8a1c903f53b30355f397e8a065901f5c",
-                    "reference": "9b80cd1a8a1c903f53b30355f397e8a065901f5c",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/065ba96469d3cfef477b37d1a3228940df91abb1",
+                    "reference": "065ba96469d3cfef477b37d1a3228940df91abb1",
                     "shasum": ""
                 },
                 "require": {
@@ -2824,11 +2824,11 @@
                     "drupal/webform": "~5.0",
                     "drupal/webform_analysis": "~1.0",
                     "drupal/webform_views": "~5.0",
-                    "drupal/yoast_seo": "^1.5",
+                    "drupal/yoast_seo": "2.x-dev",
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-10T23:22:27+00:00",
+                "time": "2019-07-12T17:43:58+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3737,12 +3737,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "ceb4f6feb0d142c3235c0d1ef9c035564befd9ac"
+                    "reference": "9faeda6a552dc24a13f16b6cc3a839c0695ac48c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/ceb4f6feb0d142c3235c0d1ef9c035564befd9ac",
-                    "reference": "ceb4f6feb0d142c3235c0d1ef9c035564befd9ac",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/9faeda6a552dc24a13f16b6cc3a839c0695ac48c",
+                    "reference": "9faeda6a552dc24a13f16b6cc3a839c0695ac48c",
                     "shasum": ""
                 },
                 "require": {
@@ -3775,7 +3775,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-07-09T20:15:52+00:00",
+                "time": "2019-07-10T23:27:21+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
