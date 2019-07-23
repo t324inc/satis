@@ -1,5 +1,121 @@
 {
     "packages": {
+        "drupal/d324_ace": {
+            "8.7.5": {
+                "name": "drupal/d324_ace",
+                "version": "8.7.5",
+                "version_normalized": "8.7.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_ace.git",
+                    "reference": "665d68c8558b428cad0ba77fff1dac83fd6c5a6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_ace/zipball/665d68c8558b428cad0ba77fff1dac83fd6c5a6f",
+                    "reference": "665d68c8558b428cad0ba77fff1dac83fd6c5a6f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/inline_entity_form": "^1.0",
+                    "drupal/paragraphs": "^1.6",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-07-23T14:49:05+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "D324 advanced Paragraphs+Layout content editing interface",
+                "homepage": "https://github.com/t324inc/d324_ace",
+                "keywords": [
+                    "Drupal"
+                ],
+                "support": {
+                    "source": "https://github.com/t324inc/d324_ace",
+                    "issues": "https://github.com/t324inc/d324_ace/issues"
+                }
+            },
+            "8.7.x-dev": {
+                "name": "drupal/d324_ace",
+                "version": "8.7.x-dev",
+                "version_normalized": "8.7.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/t324inc/d324_ace.git",
+                    "reference": "665d68c8558b428cad0ba77fff1dac83fd6c5a6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/d324_ace/zipball/665d68c8558b428cad0ba77fff1dac83fd6c5a6f",
+                    "reference": "665d68c8558b428cad0ba77fff1dac83fd6c5a6f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
+                    "drupal/inline_entity_form": "^1.0",
+                    "drupal/paragraphs": "^1.6",
+                    "oomphinc/composer-installers-extender": "~1.0",
+                    "t324inc/d324_core": "8.7.x-dev"
+                },
+                "time": "2019-07-23T14:49:05+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-8.x-7.x": "8.7.x-dev"
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "D324 advanced Paragraphs+Layout content editing interface",
+                "homepage": "https://github.com/t324inc/d324_ace",
+                "keywords": [
+                    "Drupal"
+                ],
+                "support": {
+                    "source": "https://github.com/t324inc/d324_ace",
+                    "issues": "https://github.com/t324inc/d324_ace/issues"
+                }
+            }
+        },
         "t324inc/d324": {
             "8.7.1": {
                 "name": "t324inc/d324",
@@ -1166,12 +1282,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-project.git",
-                    "reference": "5422600e4d8773b8a0fedcb3fc412bfc8237b260"
+                    "reference": "b0adbbde2c11290bce983ae24276638b04c60a43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/5422600e4d8773b8a0fedcb3fc412bfc8237b260",
-                    "reference": "5422600e4d8773b8a0fedcb3fc412bfc8237b260",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/b0adbbde2c11290bce983ae24276638b04c60a43",
+                    "reference": "b0adbbde2c11290bce983ae24276638b04c60a43",
                     "shasum": ""
                 },
                 "require": {
@@ -1193,7 +1309,7 @@
                 "conflict": {
                     "drupal/drupal": "*"
                 },
-                "time": "2019-06-26T13:19:05+00:00",
+                "time": "2019-07-18T02:06:09+00:00",
                 "type": "project",
                 "extra": {
                     "branch-alias": {
@@ -2723,12 +2839,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "065ba96469d3cfef477b37d1a3228940df91abb1"
+                    "reference": "a9b51d5ac1ca94d246150fa6716cd8e29a8555b3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/065ba96469d3cfef477b37d1a3228940df91abb1",
-                    "reference": "065ba96469d3cfef477b37d1a3228940df91abb1",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/a9b51d5ac1ca94d246150fa6716cd8e29a8555b3",
+                    "reference": "a9b51d5ac1ca94d246150fa6716cd8e29a8555b3",
                     "shasum": ""
                 },
                 "require": {
@@ -2828,7 +2944,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-07-12T17:43:58+00:00",
+                "time": "2019-07-23T14:56:42+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3737,12 +3853,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "9faeda6a552dc24a13f16b6cc3a839c0695ac48c"
+                    "reference": "ee40a387e17659e8798807fb3997cece77ccc12e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/9faeda6a552dc24a13f16b6cc3a839c0695ac48c",
-                    "reference": "9faeda6a552dc24a13f16b6cc3a839c0695ac48c",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/ee40a387e17659e8798807fb3997cece77ccc12e",
+                    "reference": "ee40a387e17659e8798807fb3997cece77ccc12e",
                     "shasum": ""
                 },
                 "require": {
@@ -3775,7 +3891,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-07-10T23:27:21+00:00",
+                "time": "2019-07-12T17:49:53+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -4129,18 +4245,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "c3f3efdcfe9967ed3459659d834a0e6339bc76c2"
+                    "reference": "2cb35adc3f9b217afa4bfbc2371d72125c576b60"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/c3f3efdcfe9967ed3459659d834a0e6339bc76c2",
-                    "reference": "c3f3efdcfe9967ed3459659d834a0e6339bc76c2",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/2cb35adc3f9b217afa4bfbc2371d72125c576b60",
+                    "reference": "2cb35adc3f9b217afa4bfbc2371d72125c576b60",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-07-09T10:29:36+00:00",
+                "time": "2019-07-23T14:56:11+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
