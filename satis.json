@@ -66,6 +66,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/t324inc/geysir"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/t324inc/d324_ace"
     }
 	],
 	"require-all": true,
