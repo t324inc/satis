@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95c1c071e8418b5dfa71b3207986aa86",
+    "content-hash": "8ada72abad1b5b3cbdf8128d3b4ea4bd",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -148,12 +148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/satis.git",
-                "reference": "2845708"
+                "reference": "969905e4ef3217cf51319a24beca5e56d607c649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/satis/zipball/2845708",
-                "reference": "2845708",
+                "url": "https://api.github.com/repos/composer/satis/zipball/969905e4ef3217cf51319a24beca5e56d607c649",
+                "reference": "969905e4ef3217cf51319a24beca5e56d607c649",
                 "shasum": ""
             },
             "require": {
@@ -207,7 +207,7 @@
                 "repository",
                 "static"
             ],
-            "time": "2019-05-03T09:20:29+00:00"
+            "time": "2019-07-11T06:20:03+00:00"
         },
         {
             "name": "composer/semver",
@@ -1106,14 +1106,7 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "1.0.0",
-            "alias_normalized": "1.0.0.0",
-            "version": "9999999-dev",
-            "package": "composer/satis"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "composer/satis": 20

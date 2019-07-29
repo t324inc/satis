@@ -3,6 +3,6 @@
     "description": "T324 Composer Satis Repository",
     "homepage": "https://t324inc.github.io/satis/",
     "require": {
-        "composer/satis": "dev-master#2845708 as 1.0.0"
+        "composer/satis": "dev-master"
     }
 }
