@@ -3849,12 +3849,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "616bb0508f9f1ba0ab03d1c2b84961f692cc24c6"
+                    "reference": "4415b67d9b372de39d3de52563710cfd845b92c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/616bb0508f9f1ba0ab03d1c2b84961f692cc24c6",
-                    "reference": "616bb0508f9f1ba0ab03d1c2b84961f692cc24c6",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/4415b67d9b372de39d3de52563710cfd845b92c2",
+                    "reference": "4415b67d9b372de39d3de52563710cfd845b92c2",
                     "shasum": ""
                 },
                 "require": {
@@ -3878,7 +3878,7 @@
                     "drupal/media_entity_googledocs": "~4.0",
                     "drupal/media_entity_instagram": "~2.0",
                     "drupal/media_entity_twitter": "~2.0",
-                    "drupal/svg_image": "^1.9",
+                    "drupal/svg_image_field": "^1.2",
                     "drupal/views_bulk_edit": "~2.0",
                     "drupal/views_bulk_operations": "~3.0",
                     "drupal/views_infinite_scroll": "~1.0",
@@ -3888,7 +3888,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-08-07T17:30:18+00:00",
+                "time": "2019-08-07T18:54:40+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
