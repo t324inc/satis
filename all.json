@@ -1166,12 +1166,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324-project.git",
-                    "reference": "b0adbbde2c11290bce983ae24276638b04c60a43"
+                    "reference": "05565145622a3231ca16572ca705e02440a708bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/b0adbbde2c11290bce983ae24276638b04c60a43",
-                    "reference": "b0adbbde2c11290bce983ae24276638b04c60a43",
+                    "url": "https://api.github.com/repos/t324inc/d324-project/zipball/05565145622a3231ca16572ca705e02440a708bc",
+                    "reference": "05565145622a3231ca16572ca705e02440a708bc",
                     "shasum": ""
                 },
                 "require": {
@@ -1193,7 +1193,10 @@
                 "conflict": {
                     "drupal/drupal": "*"
                 },
-                "time": "2019-07-18T02:06:09+00:00",
+                "require-dev": {
+                    "webflo/drupal-core-require-dev": "^8.7.0"
+                },
+                "time": "2019-08-07T17:53:07+00:00",
                 "type": "project",
                 "extra": {
                     "branch-alias": {
