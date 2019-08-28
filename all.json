@@ -1635,12 +1635,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_ace.git",
-                    "reference": "efbad0cecd8249d8b5ec1ad6470cbedfe79753d0"
+                    "reference": "8dc850e342a789d33507cdb003e0a84fc7251ab3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_ace/zipball/efbad0cecd8249d8b5ec1ad6470cbedfe79753d0",
-                    "reference": "efbad0cecd8249d8b5ec1ad6470cbedfe79753d0",
+                    "url": "https://api.github.com/repos/t324inc/d324_ace/zipball/8dc850e342a789d33507cdb003e0a84fc7251ab3",
+                    "reference": "8dc850e342a789d33507cdb003e0a84fc7251ab3",
                     "shasum": ""
                 },
                 "require": {
@@ -1652,7 +1652,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_core": "8.7.x-dev"
                 },
-                "time": "2019-08-07T11:48:11+00:00",
+                "time": "2019-08-28T22:37:57+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2092,12 +2092,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_copyright_block.git",
-                    "reference": "42a0cfeb0a5c946b4c5c1361c230e28de0028ded"
+                    "reference": "284bc35699cbe137308c78a6da41cec02bc8b080"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/42a0cfeb0a5c946b4c5c1361c230e28de0028ded",
-                    "reference": "42a0cfeb0a5c946b4c5c1361c230e28de0028ded",
+                    "url": "https://api.github.com/repos/t324inc/d324_copyright_block/zipball/284bc35699cbe137308c78a6da41cec02bc8b080",
+                    "reference": "284bc35699cbe137308c78a6da41cec02bc8b080",
                     "shasum": ""
                 },
                 "require": {
@@ -2107,7 +2107,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "t324inc/d324_core": "8.7.x-dev"
                 },
-                "time": "2019-06-07T14:24:19+00:00",
+                "time": "2019-08-28T22:37:55+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2133,7 +2133,7 @@
                 "description": "Copyright blocks for use in D324 websites.",
                 "homepage": "https://github.com/t324inc/d324_copyright_block",
                 "support": {
-                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.7.3",
+                    "source": "https://github.com/t324inc/d324_copyright_block/tree/8.x-7.x",
                     "issues": "https://github.com/t324inc/d324_copyright_block/issues"
                 }
             }
@@ -2836,17 +2836,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "2fdf25071a260222f9d651f3a5a4358eb2feeedc"
+                    "reference": "f5cdff5bbc19dac3bb055237c6b748d4097e981e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/2fdf25071a260222f9d651f3a5a4358eb2feeedc",
-                    "reference": "2fdf25071a260222f9d651f3a5a4358eb2feeedc",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/f5cdff5bbc19dac3bb055237c6b748d4097e981e",
+                    "reference": "f5cdff5bbc19dac3bb055237c6b748d4097e981e",
                     "shasum": ""
                 },
                 "require": {
                     "bower-asset/colorbox": "^1.6",
                     "bower-asset/jquery-simple-color": "^1.2",
+                    "bower-asset/sortable": "^0.8.0",
                     "bower-asset/spectrum": "^1.8",
                     "composer/installers": "~1.0",
                     "cweagans/composer-patches": "~1.0",
@@ -2863,7 +2864,7 @@
                     "drupal/block_class": "~1.0",
                     "drupal/captcha": "~1.0",
                     "drupal/checklistapi": "~1.0",
-                    "drupal/color_field": "~2.0",
+                    "drupal/color_field": "2.x-dev",
                     "drupal/components": "^1.1",
                     "drupal/config_filter": "~1.0",
                     "drupal/config_ignore": "~2.0",
@@ -2905,7 +2906,6 @@
                     "drupal/menu_trail_by_path": "^1.0",
                     "drupal/metatag": "^1.8",
                     "drupal/moderation_sidebar": "^1.1",
-                    "drupal/node_edit_protection": "~1.0",
                     "drupal/page_manager": "4.0-beta4",
                     "drupal/panels": "~4.0",
                     "drupal/paragraphs": "1.x-dev",
@@ -2937,11 +2937,10 @@
                     "drupal/webform": "~5.0",
                     "drupal/webform_analysis": "~1.0",
                     "drupal/webform_views": "~5.0",
-                    "drupal/yoast_seo": "2.x-dev",
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-08-07T11:58:44+00:00",
+                "time": "2019-08-28T22:58:57+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2989,7 +2988,8 @@
                             "Issue #3013171 LogicException Form errors cannot be set after form validation has finished": "https://www.drupal.org/files/issues/2019-05-03/3013171-13.patch"
                         },
                         "drupal/color_field": {
-                            "Issue #3002836 No functionality of the Spectrum widget on Drupal 8.6.x with latest stable or dev": "https://www.drupal.org/files/issues/2018-11-07/no_functionality_of_almost_all_widgets-3002836-7.patch"
+                            "Issue #3002836 No functionality of the Spectrum widget on Drupal 8.6.x with latest stable or dev": "https://www.drupal.org/files/issues/2018-11-07/no_functionality_of_almost_all_widgets-3002836-7.patch",
+                            "Fix input text field locked": "patches/color_field_fix_locked_text_input_field.patch"
                         },
                         "drupal/menu_trail_by_path": {
                             "Issue #2914746 Fatal error after installing module": "https://www.drupal.org/files/issues/2019-05-14/menu_trail_by_path-fatal_error_on_menu_active_trail_service_override-2914746-13.patch"
@@ -3849,12 +3849,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_media.git",
-                    "reference": "4415b67d9b372de39d3de52563710cfd845b92c2"
+                    "reference": "da68917490b020f57e57f8343072ee067f9d0b47"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/4415b67d9b372de39d3de52563710cfd845b92c2",
-                    "reference": "4415b67d9b372de39d3de52563710cfd845b92c2",
+                    "url": "https://api.github.com/repos/t324inc/d324_media/zipball/da68917490b020f57e57f8343072ee067f9d0b47",
+                    "reference": "da68917490b020f57e57f8343072ee067f9d0b47",
                     "shasum": ""
                 },
                 "require": {
@@ -3888,7 +3888,7 @@
                     "oomphinc/composer-installers-extender": "~1.0",
                     "vardot/entity_browser_generic_embed": "8.1.x-dev"
                 },
-                "time": "2019-08-07T18:54:40+00:00",
+                "time": "2019-08-28T22:37:56+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -4237,18 +4237,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324theme.git",
-                    "reference": "6ced08c648fa25ba79f968db449ee45eb755eb5a"
+                    "reference": "b6f1a6113d1df68dc1a904586f914279ec6e55d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/6ced08c648fa25ba79f968db449ee45eb755eb5a",
-                    "reference": "6ced08c648fa25ba79f968db449ee45eb755eb5a",
+                    "url": "https://api.github.com/repos/t324inc/d324theme/zipball/b6f1a6113d1df68dc1a904586f914279ec6e55d0",
+                    "reference": "b6f1a6113d1df68dc1a904586f914279ec6e55d0",
                     "shasum": ""
                 },
                 "require": {
                     "drupal/components": "^1.0"
                 },
-                "time": "2019-08-07T13:21:50+00:00",
+                "time": "2019-08-28T22:37:08+00:00",
                 "type": "drupal-theme",
                 "extra": {
                     "branch-alias": {
