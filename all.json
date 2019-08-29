@@ -2836,12 +2836,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/d324_core.git",
-                    "reference": "f5cdff5bbc19dac3bb055237c6b748d4097e981e"
+                    "reference": "00961d6b9ca3ae78e0f38bc62237bda5ad9fd899"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/f5cdff5bbc19dac3bb055237c6b748d4097e981e",
-                    "reference": "f5cdff5bbc19dac3bb055237c6b748d4097e981e",
+                    "url": "https://api.github.com/repos/t324inc/d324_core/zipball/00961d6b9ca3ae78e0f38bc62237bda5ad9fd899",
+                    "reference": "00961d6b9ca3ae78e0f38bc62237bda5ad9fd899",
                     "shasum": ""
                 },
                 "require": {
@@ -2940,7 +2940,7 @@
                     "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-08-28T22:58:57+00:00",
+                "time": "2019-08-29T16:40:52+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2983,9 +2983,6 @@
                         },
                         "drupal/entity_reference_revisions": {
                             "Issue #3025709 Create new revision option is ignored when updating EntityReferenceRevisionsItem": "https://www.drupal.org/files/issues/2019-06-27/3025709-30.patch"
-                        },
-                        "drupal/paragraphs": {
-                            "Issue #3013171 LogicException Form errors cannot be set after form validation has finished": "https://www.drupal.org/files/issues/2019-05-03/3013171-13.patch"
                         },
                         "drupal/color_field": {
                             "Issue #3002836 No functionality of the Spectrum widget on Drupal 8.6.x with latest stable or dev": "https://www.drupal.org/files/issues/2018-11-07/no_functionality_of_almost_all_widgets-3002836-7.patch",
