@@ -1,5 +1,42 @@
 {
     "packages": {
+        "drupal/wdfm_gateway_integration": {
+            "dev-master": {
+                "name": "drupal/wdfm_gateway_integration",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:t324inc/wdfm_gateway_integration.git",
+                    "reference": "c4da909778e467e7bc2d7985fc7a6a40af94c53e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/t324inc/wdfm_gateway_integration/zipball/c4da909778e467e7bc2d7985fc7a6a40af94c53e",
+                    "reference": "c4da909778e467e7bc2d7985fc7a6a40af94c53e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "meng-tian/async-soap-guzzle": "dev-master"
+                },
+                "time": "2019-09-03T23:55:46+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "Integration with the Gateway server using SOAP",
+                "homepage": "https://www.drupal.org/project/wdfm_gateway_integration",
+                "keywords": [
+                    "Drupal"
+                ],
+                "support": {
+                    "issues": "https://www.drupal.org/project/issues/wdfm_gateway_integration",
+                    "source": "http://cgit.drupalcode.org/wdfm_gateway_integration"
+                }
+            }
+        },
         "t324inc/d324": {
             "8.7.1": {
                 "name": "t324inc/d324",
