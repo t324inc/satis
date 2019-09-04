@@ -4594,12 +4594,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/wdfm_gateway_integration.git",
-                    "reference": "54fcab5ff64059f70a26802762e4b310e8d156ce"
+                    "reference": "a43cfdff86da04c7d263086a8493333561c7d56b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/wdfm_gateway_integration/zipball/54fcab5ff64059f70a26802762e4b310e8d156ce",
-                    "reference": "54fcab5ff64059f70a26802762e4b310e8d156ce",
+                    "url": "https://api.github.com/repos/t324inc/wdfm_gateway_integration/zipball/a43cfdff86da04c7d263086a8493333561c7d56b",
+                    "reference": "a43cfdff86da04c7d263086a8493333561c7d56b",
                     "shasum": ""
                 },
                 "require": {
@@ -4611,7 +4611,7 @@
                     "meng-tian/async-soap-guzzle": "dev-master",
                     "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-09-04T00:45:38+00:00",
+                "time": "2019-09-04T01:09:41+00:00",
                 "type": "custom-drupal-module",
                 "extra": {
                     "installer-types": [
