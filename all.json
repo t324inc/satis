@@ -4594,32 +4594,48 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/t324inc/wdfm_gateway_integration.git",
-                    "reference": "c654c4d9a67090621e4bfaa1cdaa82d1fc2802a2"
+                    "reference": "54fcab5ff64059f70a26802762e4b310e8d156ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/t324inc/wdfm_gateway_integration/zipball/c654c4d9a67090621e4bfaa1cdaa82d1fc2802a2",
-                    "reference": "c654c4d9a67090621e4bfaa1cdaa82d1fc2802a2",
+                    "url": "https://api.github.com/repos/t324inc/wdfm_gateway_integration/zipball/54fcab5ff64059f70a26802762e4b310e8d156ce",
+                    "reference": "54fcab5ff64059f70a26802762e4b310e8d156ce",
                     "shasum": ""
                 },
                 "require": {
+                    "composer/installers": "~1.0",
+                    "cweagans/composer-patches": "~1.0",
+                    "drupal/drupal-library-installer-plugin": "^0.3",
                     "ext-json": "*",
                     "ext-simplexml": "*",
-                    "meng-tian/async-soap-guzzle": "dev-master"
+                    "meng-tian/async-soap-guzzle": "dev-master",
+                    "oomphinc/composer-installers-extender": "~1.0"
                 },
-                "time": "2019-09-04T00:21:53+00:00",
+                "time": "2019-09-04T00:45:38+00:00",
                 "type": "custom-drupal-module",
+                "extra": {
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "enable-patching": true,
+                    "composer-exit-on-patch-failure": true
+                },
                 "license": [
-                    "GPL-2.0+"
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "T324",
+                        "homepage": "https://www.t324.com",
+                        "role": "Maintainer"
+                    }
                 ],
                 "description": "Integration with the Gateway server using SOAP",
-                "homepage": "https://www.drupal.org/project/wdfm_gateway_integration",
-                "keywords": [
-                    "Drupal"
-                ],
+                "homepage": "https://github.com/t324inc/wdfm_gateway_integration",
                 "support": {
-                    "issues": "https://www.drupal.org/project/issues/wdfm_gateway_integration",
-                    "source": "http://cgit.drupalcode.org/wdfm_gateway_integration"
+                    "source": "https://github.com/t324inc/wdfm_gateway_integration/tree/master",
+                    "issues": "https://github.com/t324inc/wdfm_gateway_integration/issues"
                 }
             }
         }
