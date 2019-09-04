@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:t324inc/wdfm_gateway_integration.git",
+                    "url": "https://github.com/t324inc/wdfm_gateway_integration.git",
                     "reference": "0263d50d5aa86402d22e989fc23045ea241376be"
                 },
                 "dist": {
